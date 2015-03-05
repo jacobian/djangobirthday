@@ -1,0 +1,7 @@
+{
+    "name": "djangobirthday",
+    "version": "1.0.0",
+    "dependencies": {
+        "node-less": ""
+    }
+}
