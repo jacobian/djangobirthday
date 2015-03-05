@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "node-sass": "~2.0",
+    "node-less": "~1.0",
     "harp": "~0.12.1"
   },
   "engines": {
@@ -15,5 +16,6 @@
   "main": "server.js",
   "devDependencies": {},
   "author": "Jacob Kaplan-Moss",
-  "license": "BSD"
+  "license": "BSD",
+  "repository": "https://git.heroku.com/djangobirthday.git"
 }
