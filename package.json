@@ -4,13 +4,15 @@
   "dependencies": {
     "node-sass": "~2.0",
     "node-less": "~1.0",
-    "harp": "~0.12.1"
+    "harp": "~0.12.1",
+    "bower": "~1.3"
   },
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "description": "djangobirthday.com",
   "main": "server.js",
