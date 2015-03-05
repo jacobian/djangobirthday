@@ -10,5 +10,10 @@
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "description": "djangobirthday.com",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Jacob Kaplan-Moss",
+  "license": "BSD"
 }
