@@ -2,6 +2,7 @@
     "name": "djangobirthday",
     "version": "1.0.0",
     "dependencies": {
-        "node-less": ""
+        "node-less": "~1.0",
+        "node-sass": "~2.0"
     }
 }
