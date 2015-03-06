@@ -9,9 +9,86 @@
 //
 // --------------------------------------------------
 
+// fonty
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,700,900,200);
+
 // Import flat bootstrap theme
 @import "themes/birthday/theme";
 
+// theme colors, yeah I know they're not semantic, deal with it
+@red: #CC4A45;
+@lt-pink: #FDEAEC;
+@purple: #552F86;
+@lt-grey: #E8D9DE;
+@blue: #2C96BF;
+
 body {
-  padding-top: 70px;
+  background-color: @lt-pink;
+}
+
+.row {
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: @red;
+    color: @lt-pink;
+    margin: 0;
+    padding: 60px 0 150px 0;
+    position: relative;
+
+    .when {
+        position: absolute;
+        bottom: 90px;
+        left: 50%;
+        border: 6px @blue solid;
+        padding: 18px;
+        font-weight: 700;
+        z-index: 1;
+    }
+
+    .where {
+        position: absolute;
+        bottom: 40px;
+        left: 30%;
+        width: 282px;
+        height: 155px;
+        background: url('../im/ks.png');
+        text-align: center;
+        line-height: 155px;
+    }
+
+    h1 {
+        text-transform: lowercase;
+        margin-left: 20%;
+        position: relative;
+        z-index: 10;
+        span { display: block; }
+        span.django { 
+            font-size: 120px; 
+            font-weight: 700; 
+        }
+        span.birthday {
+            font-size: 80px;
+            font-weight: 700;
+        }
+
+    }
+}
+
+// border images generated with border-image.com
+.midsplash {
+    border-style: solid;
+    border-width: 24px 0px 0px;
+    border-image: url(../im/red-band.png) 24 0 0 repeat stretch;
+}
+
+.content {
+    background-color: @purple;
+    color: @lt-grey;
+    border-style: solid;
+    border-width: 24px 0px 0px;
+    border-image: url(../im/purple-band.png) 24 0 0 repeat stretch;
+    border-image-outset: 24px 0 0;
+    margin-top: 24px;
 }

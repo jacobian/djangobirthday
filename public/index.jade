@@ -3,11 +3,17 @@ extends base.jade
 block content
   .container
     .jumbotron
-        h1 Django Birthday
-        p Django's turning ten!
-        p Come celebrate in its birthplace.
-        p July 9th - 11th &diam; Lawrence, Kansas
-    .row
+        h1.splash
+            span.django Django
+            span.birthday Birthday
+        p.when July 9th - 11th
+        p.where Lawrence, KS
+    .row.midsplash
+      .col-md-12
+        p Happy birthday
+        p django
+        p Time to celebrate!
+    .row.content
       .col-md-4
         h3 About
         p.
