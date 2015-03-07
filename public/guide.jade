@@ -17,11 +17,11 @@ mixin place_details(name, place_list)
 
         ul.list-inline
           if place.map
-            li: a.btn.btn-default(href="#{ map }") map
+            li: a.btn.btn-default(href="#{place.map}") map
           if place.website
-            li: a.btn.btn-default(href="#{ website }") website
+            li: a.btn.btn-default(href="#{place.website}") website
           if place.foursquare
-            li: a.btn.btn-default(href="#{ foursquare }") 4SQ
+            li: a.btn.btn-default(href="#{place.foursquare}") 4SQ
           each value, index in place.tags
             li: a.btn.btn-default.disabled #{value}
 
