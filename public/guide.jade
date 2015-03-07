@@ -1,12 +1,12 @@
 extends base.jade
 
-mixin place_details(name, list)
+mixin place_details(name, place_list)
   .row
     .col-md-12.bg-primary
       h2= name
 
   .row
-    for place, slug in list
+    for place, slug in place_list
       .col-md-6
         h3: = place.name
         address: = place.address
