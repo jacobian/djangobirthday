@@ -2,7 +2,7 @@
   "la-prima-tazza": {
     "name": "La Prima Tazza",
     "address": "835 Massachusetts St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "foursquare": "https://foursquare.com/v/la-prima-tazza/4b2ff7c9f964a52092f324e3",
     "section": "Coffee",
@@ -13,7 +13,7 @@
   "henrys-on-eighth": {
     "name": "Henry's on Eighth",
     "address": "11 E 8th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "foursquare": "https://foursquare.com/v/henrys-on-eighth/4adbca97f964a520ac2a21e3",
     "section": "Coffee",
@@ -24,7 +24,7 @@
   "java-break": {
     "name": "The Java Break",
     "address": "17 E 7th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "website": "http://thejavabreak.com/home/",
     "foursquare": "https://foursquare.com/v/java-break/4a39fed3f964a520c89f1fe3",
@@ -36,7 +36,7 @@
   "zs-divine-espresso": {
     "name": "Z's Divine Espresso",
     "address": "10 E 9th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "website": "http://www.zsdivine.com/",
     "foursquare": "https://foursquare.com/v/zs-divine-espresso/4b083b41f964a520e50623e3",

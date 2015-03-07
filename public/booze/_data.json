@@ -2,7 +2,7 @@
   "john-brown-underground": {
     "name": "John Brown Underground",
     "address": "7 E 7th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "website": "http://www.freelawrence.com/",
     "foursquare": "https://foursquare.com/v/john-browns-underground/53f7ee73498e83dc4cd4d79a",
@@ -16,7 +16,7 @@
   "the-sandbar": {
     "name": "The Sandbar",
     "address": "17 E 8th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "website": "http://www.thesandbar.com/",
     "foursquare": "https://foursquare.com/v/the-sandbar/4ae237b0f964a520f28b21e3",
@@ -29,7 +29,7 @@
   "the-bourgeois-pig": {
     "name": "The Bourgeois Pig",
     "address": "6 E 9th St",
-    "description": "[write something about me]",
+    "description": "",
     "map": "",
     "website": "",
     "foursquare": "https://foursquare.com/v/the-bourgeois-pig/49cc7a63f964a52081591fe3",
