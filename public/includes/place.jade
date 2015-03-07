@@ -1,0 +1,13 @@
+.col-md-6
+  h3: = place.name
+  address: = place.address
+  p: = place.description
+  ul.list-inline
+    if place.map
+      li: a.btn.btn-default(href="#{ map }") map
+    if place.website
+      li: a.btn.btn-default(href="#{ website }") website
+    if place.foursquare
+      li: a.btn.btn-default(href="#{ foursquare }") 4SQ
+    each value, index in place.tags
+      li: = value

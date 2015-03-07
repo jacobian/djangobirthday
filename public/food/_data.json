@@ -1,0 +1,55 @@
+{
+  "715": {
+    "name": "715",
+    "address": "715 Massachusetts St",
+    "description": "Fresh local ingredients and libations.",
+    "map": "",
+    "website": "http://715mass.com/",
+    "foursquare": "https://foursquare.com/v/715-restaurant/4b75ad78f964a5204f1c2ee3",
+    "section": "Food",
+    "tags": []
+  },
+  "free-state-brewing-company": {
+    "name": "Free State Brewing Company",
+    "address": "636 Massachusetts St",
+    "description": "Great food and an amazing brew pub.",
+    "map": "",
+    "website": "http://www.freestatebrewing.com/",
+    "foursquare": "https://foursquare.com/v/free-state-brewing-company/4ae48262f964a520229b21e3",
+    "section": "Food",
+    "tags": []
+  },
+  "burger-stand-casbah": {
+    "name": "Burger Stand at the Casbah",
+    "address": "803 Massachusetts St",
+    "description": "Voted one of best burgers in the United States.",
+    "map": "",
+    "website": "http://www.burgerstandrestaurants.com/",
+    "foursquare": "https://foursquare.com/v/the-burger-stand-at-the-casbah/4c2e604aed37a593b4796503",
+    "section": "Food",
+    "tags": []
+  },
+  "encore": {
+    "name": "Encore",
+    "address": "1007 Massachusetts St",
+    "description": "Asian Restaurant, Indian Restaurant, and Vegetarian / Vegan Restaurant.",
+    "map": "",
+    "website": "http://www.encore-cafe.com/",
+    "foursquare": "https://foursquare.com/v/encore-cafe/4b4b4c9df964a520dc9626e3",
+    "section": "Food",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  "limestone-pizza": {
+    "name": "Limestone Pizza",
+    "address": "814 Massachusetts St",
+    "description": "Neoprairie Pizzas at their finest.",
+    "map": "",
+    "website": "http://limestonepkb.com/",
+    "foursquare": "https://foursquare.com/v/limestone-pizza/53433170498e0220ab2a1a31",
+    "section": "Food",
+    "tags": []
+  }
+}
