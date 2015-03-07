@@ -19,7 +19,7 @@ mixin place_details(name, list)
           if place.foursquare
             li: a.btn.btn-default(href="#{ foursquare }") 4SQ
           each value, index in place.tags
-            li: = value
+            li: a.btn.btn-default.disabled #{value}
 
 block content
   .container
