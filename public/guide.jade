@@ -1,29 +1,30 @@
 extends base.jade
 
-mixin place_details(name, place_list)
+mixin place_details(section_name, place_list)
   .row
     .col-md-12.bg-primary
-      h2= name
+      h2= section_name
 
   .row
     for place, slug in place_list
-      .col-md-6
-        h3: = place.name
-        address: = place.address
-        if place.description
-          p: = place.description
-        else
-          p: [TODO: write something about this place]
+      if place.section == section_name
+        .col-md-6
+          h3: = place.name
+          address: = place.address
+          if place.description
+            p: = place.description
+          else
+            p: [TODO: write something about this place]
 
-        ul.list-inline
-          if place.map
-            li: a.btn.btn-default(href="#{place.map}") map
-          if place.website
-            li: a.btn.btn-default(href="#{place.website}") website
-          if place.foursquare
-            li: a.btn.btn-default(href="#{place.foursquare}") 4SQ
-          each value, index in place.tags
-            li: a.btn.btn-default.disabled #{value}
+          ul.list-inline
+            if place.map
+              li: a.btn.btn-default(href="#{place.map}") map
+            if place.website
+              li: a.btn.btn-default(href="#{place.website}") website
+            if place.foursquare
+              li: a.btn.btn-default(href="#{place.foursquare}") 4SQ
+            each value, index in place.tags
+              li: a.btn.btn-default.disabled #{value}
 
 block content
   .container
@@ -34,8 +35,8 @@ block content
           Lawrence while you are here. Here are our picks which are close to
           Liberty Hall the Django Birthday venue.
 
-    +place_details('Coffee', public.coffee._data)
+    +place_details('Coffee', public.places._data)
 
-    +place_details('Food', public.food._data)
+    +place_details('Food', public.places._data)
 
-    +place_details('Booze', public.booze._data)
+    +place_details('Booze', public.places._data)
