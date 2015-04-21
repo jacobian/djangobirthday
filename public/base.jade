@@ -5,8 +5,23 @@ html
     link(rel='stylesheet', href='#{baseUrl}/css/global.css')
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro')
   body
-    //- header
+    header
+      block header
+        nav.navbar.navbar-default
+          div.container
+            div.navbar-header
+              a.navbar-brand(href="/")
+                img(src="/im/ks.png" alt="Django Birthday", height=64)
+            div
+              ul.nav.navbar-nav
+                li 
+                  a(href="/") home
+                li
+                  a(href="/guide") guide
+                li
+                  a(href="/conduct") code of conduct
+
     block content
-    //- footer
+
     script(src='#{baseUrl}/js/jquery/jquery.min.js')
     script(src='#{baseUrl}/js/bootstrap/bootstrap.js')
