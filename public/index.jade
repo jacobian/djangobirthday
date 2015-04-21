@@ -1,36 +1,39 @@
 extends base.jade
 
 block content
-  .container
-    .jumbotron
-        h1.splash
-            span.django Django
-            span.birthday Birthday
-        p.when July 9th - 11th
-        p.where Lawrence, KS
-    .row.midsplash
-      .col-md-12
-        p Happy birthday
-        p django
-        p Time to celebrate!
-    .row.content
-      .col-md-4
-        h3 About
-        p.
-          There really should be some introductory text here, but I don't
-          feel like writing copy right now.
-        h4 Indeed, there should.
-        p.
-          Yuuuup.
-      .col-md-4
-        h3 Attend
-        p Early-bird tickets on sale now, only $90!
-        p
-          a.btn.btn-default.btn-block(href="#") Register now
-      .col-md-4
-        h3 Speak
-        p.
-          We're looking for speakers who blah blah celebrate blah community
-          blah especially whatever language from alterconf.
-        p
-          a.btn.btn-default.btn-block(href="#") Propose a session
+  header
+    .container.text-center
+      h1 Django Birthday
+      p.where Lawrence, KS
+      p.when July 9th-11th
+
+  .main
+    .container
+      .row
+        .col-md-12
+          h3 Happy birthday Django!
+          h4 Time to celebrate!
+
+  .secondary
+    .container
+      .row.content
+        .col-md-4
+          h3 About
+          p.
+            There really should be some introductory text here, but I don't
+            feel like writing copy right now.
+          h4 Indeed, there should.
+          p.
+            Yuuuup.
+        .col-md-4
+          h3 Attend
+          p Early-bird tickets on sale now, only $90!
+          p
+            a.btn.btn-default.btn-block(href="#") Register now
+        .col-md-4
+          h3 Speak
+          p.
+            We're looking for speakers who blah blah celebrate blah community
+            blah especially whatever language from alterconf.
+          p
+            a.btn.btn-default.btn-block(href="#") Propose a session
