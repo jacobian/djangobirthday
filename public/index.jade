@@ -92,3 +92,12 @@ block content
         .col-md-4
           h3 Guide
           p Your guide to Lawrence, KS.
+
+block footer
+  script(src='#{baseUrl}/js/snowfall.jquery.min.js')
+  script.
+    $(function() {
+      $("header").snowfall({round: true, flakeColor: "#FDEAEC", flakeCount: 15, minSize: 5, maxSize: 25});
+      $("header").snowfall({round: true, flakeColor: "#552F86", flakeCount: 15, minSize: 5, maxSize: 25});
+      $("header").snowfall({round: true, flakeColor: "#2C96BF", flakeCount: 15, minSize: 5, maxSize: 25});
+    });
