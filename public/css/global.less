@@ -37,29 +37,40 @@ header {
 
     h1 {
         text-transform: lowercase;
-        font-size: 120px;
-        font-weight: 700;
+        .django {
+            font-size: 120px;
+            font-weight: 700;
+            display: block;
+        }
+        .birthday {
+            font-size: 70px;
+            font-weight: 700;
+            margin-top: -10px;
+            display: block
+        }
     }
 
     p {
         font-size: 24px;
         font-weight: 700;
-        margin: 0 auto;
+        text-align: center;
     }
 
+    .when {
+        border: 8px @blue solid;
+        padding: 14px;
+        width: 8em;
+        float: left;
+        margin-top: -60px;
+        margin-left: 20px;
+    }
     .where {
         width: 282px;
         height: 155px;
         background: url('../im/ks.png');
         line-height: 155px;
+        float: left;
     }
-
-    .when {
-        border: 12px @blue solid;
-        padding: 18px;
-        width: 10em;
-    }
-
 }
 
 .main {
