@@ -13,8 +13,6 @@ mixin place_details(section_name, place_list)
           address: = place.address
           if place.description
             p: = place.description
-          else
-            p: [TODO: write something about this place]
 
           p
             each value, index in place.tags
@@ -35,10 +33,10 @@ block content
     .row
       .col-md-8
         h1 Welcome to Lawrence
-        p.
+        p.lead.
           We love this city, and we want you to experience what we love about
           Lawrence while you are here. Here are our picks which are close to
-          Liberty Hall the Django Birthday venue.
+          Liberty Hall, the Django Birthday venue.
     .row
       +place_details('Coffee', public.places._data)
       +place_details('Food', public.places._data)

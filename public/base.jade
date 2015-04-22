@@ -15,16 +15,7 @@ html
                   img(src="/im/ks.png" alt="Django Birthday", height=64)
               div
                 ul.nav.navbar-nav
-                  li
-                    a(href="/schedule") schedule
-                  li
-                    a(href="/speak") participate
-                  li
-                    a(href="/travel") travel
-                  li
-                    a(href="/guide") guide
-                  li
-                    a(href="/conduct") code of conduct
+                  include ./includes/navbar-items.jade
 
       .main
         block content
