@@ -39,19 +39,28 @@ block content
           are limited</strong> so we wanted to give as much notice as possible
           for those of you who will be traveling long distances.
 
-        .row
-          .col-xs-6(style="padding-left: 0;")
-            h3 Attend
-            p Early-bird tickets on sale now, only $90!
-            p
-              a.btn.btn-primary.btn-block(href="#") Register now
-          .col-xs-6
-            h3 Speak
-            p.
-              We're looking for speakers who blah blah celebrate blah community
-              blah especially whatever language from alterconf.
-            p
-              a.btn.btn-primary.btn-block(href="#") Propose a session
+        h3 Attend
+        p.
+          Django Birthday will be held <strong>Friday, July 10th - Sunday,
+          12th</strong> in <strong>Lawrence, KS</strong>. We'll have a small
+          get-together Friday night, talks and food and celebration on
+          Saturday, and a day of sprints on Sunday.
+        p.
+          <a class="btn btn-primary" href="#">Register now!</a>
+          or <a href="/schedule">see the schedule page</a> for details.
+          
+        h3 Speak
+        p.
+          We're looking for speakers who blah blah celebrate blah community
+          blah especially whatever language from alterconf.
+        p
+          a.btn.btn-primary(href="#") Propose a session
+        h3 Guide
+        p.
+          <a href="/travel">See the travel guide</a> for info on getting to 
+          Lawrence and where to stay once you're here.
+          Once you arrive, find a place to eat, drink, or hang out in our
+           <a href="/guide">guide to downtown Lawrence</a>.
 
       .col-md-4
         h3 Presented By:
@@ -67,32 +76,6 @@ block content
           | Contact
           a(href="mailto:frank@revsys.com")  Frank Wiles
           |  for more information.
-
-prepend footer
-  .container
-    .row
-      .col-md-4
-        h3
-          a(href="/schedule") Conference
-        p.
-          Django Birthday will be held <strong>Friday, July 10th - Sunday,
-          12th</strong> in <strong>Lawrence, KS</strong>. We'll have a small
-          get-together Friday night, talks and food and celebration on
-          Saturday, and a day of sprints on Sunday.
-        p
-          a(href="/schedule") For details, see the schedule page.
-
-      .col-md-4
-        h3
-          a(href="/travel") Travel information
-        p.
-          For info on getting to Lawrence, and where to stay once you're here,
-          <a href="/travel">see our travel guide.</a>
-
-      .col-md-4
-        h3
-          a(href="/guide") Guide
-        p Your guide to Lawrence, KS.
 
 append afterbody
   script(src='#{baseUrl}/js/snowfall.jquery.min.js')
