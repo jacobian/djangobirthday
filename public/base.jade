@@ -17,15 +17,22 @@ html
                 li
                   a(href="/schedule") schedule
                 li
-                  a(href="/schedule") travel
+                  a(href="/travel") travel
                 li
                   a(href="/guide") guide
                 li
                   a(href="/conduct") code of conduct
 
-    block content
+    .main
+      block content
 
-    script(src='#{baseUrl}/js/jquery/jquery.min.js')
-    script(src='#{baseUrl}/js/bootstrap/bootstrap.js')
+    footer
+      block footer
+        .container.tagline
+          p.text-center
+            | made with &#9829; in lawrence ks by <a href="https://revsys.com/">revolution systems</a>.
 
-    block footer
+    block afterbody
+      script(src='#{baseUrl}/js/jquery/jquery.min.js')
+      script(src='#{baseUrl}/js/bootstrap/bootstrap.js')
+

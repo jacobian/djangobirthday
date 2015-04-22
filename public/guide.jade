@@ -31,17 +31,15 @@ mixin place_details(section_name, place_list)
               li: a.btn.btn-default.btn-xs(href="#{place.foursquare}") 4SQ
 
 block content
-  .main
-    .container
-      .row
-        .col-md-8
-          h1 Welcome to Lawrence
-          p.
-            We love this city, and we want you to experience what we love about
-            Lawrence while you are here. Here are our picks which are close to
-            Liberty Hall the Django Birthday venue.
-  .secondary
-    .container
+  .container
+    .row
+      .col-md-8
+        h1 Welcome to Lawrence
+        p.
+          We love this city, and we want you to experience what we love about
+          Lawrence while you are here. Here are our picks which are close to
+          Liberty Hall the Django Birthday venue.
+    .row
       +place_details('Coffee', public.places._data)
       +place_details('Food', public.places._data)
       +place_details('Booze', public.places._data)
