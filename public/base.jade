@@ -1,8 +1,9 @@
 doctype html
 html
   head
-    meta(charset='utf8')
-    link(rel='stylesheet', href='#{baseUrl}/css/global.css')
+    block head
+      meta(charset='utf8')
+      link(rel='stylesheet', href='#{baseUrl}/css/global.css')
   body
     .wrapper
       header

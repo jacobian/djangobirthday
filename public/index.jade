@@ -1,5 +1,8 @@
 extends base.jade
 
+append head
+  script(src="https://js.tito.io/v1" async)
+
 block header
   nav.navbar.navbar-default.homepage-navbar
     .container
@@ -46,7 +49,7 @@ block content
           get-together Friday night, talks and food and celebration on
           Saturday, and a day of sprints on Sunday.
         p.
-          <a class="btn btn-primary" href="#">Register now!</a>
+          <tito-button event="django-birthday/2015">Register now!</tito-button>
           or <a href="/schedule">see the schedule page</a> for details.
           
         h3 Speak
