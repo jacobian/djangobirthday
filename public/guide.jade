@@ -2,29 +2,33 @@ extends base.jade
 
 mixin place_details(section_name, place_list)
   .row
-    .col-md-12.bg-primary
-      h2= section_name
+    .col-md-12
+      h3= section_name
 
   .row
     for place, slug in place_list
       if place.section == section_name
-        .col-md-6
-          h3: = place.name
+        .col-sm-3
+          h4: = place.name
           address: = place.address
           if place.description
             p: = place.description
           else
             p: [TODO: write something about this place]
 
+          p
+            each value, index in place.tags
+              span.label.label-default #{value}
+              | &nbsp;
+
+
           ul.list-inline
             if place.map
-              li: a.btn.btn-default(href="#{place.map}") map
+              li: a.btn.btn-default.btn-xs(href="#{place.map}") map
             if place.website
-              li: a.btn.btn-default(href="#{place.website}") website
+              li: a.btn.btn-default.btn-xs(href="#{place.website}") website
             if place.foursquare
-              li: a.btn.btn-default(href="#{place.foursquare}") 4SQ
-            each value, index in place.tags
-              li: a.btn.btn-default.disabled #{value}
+              li: a.btn.btn-default.btn-xs(href="#{place.foursquare}") 4SQ
 
 block content
   .main
