@@ -10,7 +10,7 @@
     "node": "0.12.x"
   },
   "scripts": {
-    "start": "NODE_ENV=production harp server -p $PORT",
+    "start": "NODE_ENV=$NODE_ENV harp server -p $PORT",
     "postinstall": "bower install"
   },
   "description": "djangobirthday.com",

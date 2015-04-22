@@ -2,6 +2,8 @@ extends base.jade
 
 append head
   script(src="https://js.tito.io/v1" async)
+  if environment == "development"
+    script TitoDevelopmentMode = true;
 
 block header
   nav.navbar.navbar-default.homepage-navbar

@@ -1,5 +1,12 @@
 # Django Birthday
 
+## Run locally
+
+```bash 
+$ npm install
+$ heroku local
+```
+
 ## General
 
 - [Public website](http://djangobirthday.com/)

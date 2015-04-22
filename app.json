@@ -1,6 +1,6 @@
 {
   "name":"djangobirthday-next",
   "scripts":{},
-  "env":{},
+  "env": {"NODE_ENV": "production"},
   "addons":[]
 }
