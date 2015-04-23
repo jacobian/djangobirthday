@@ -172,7 +172,7 @@
   "roost": {
     "name": "The Roost",
     "address": "920 Massachusetts St",
-    "description": "Best breakfast in town.",
+    "description": "Best breakfast in town (breakfast and lunch only).",
     "map": "",
     "website": "http://www.920mass.com/",
     "foursquare": "https://foursquare.com/v/the-roost/51e8405ee4b03c67d3647357",
@@ -180,7 +180,6 @@
     "tags": [
       "breakfast",
       "brunch",
-      "lunch",
       "vegetarian"
     ]
   }
