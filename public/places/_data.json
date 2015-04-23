@@ -114,7 +114,10 @@
     "website": "http://www.burgerstandrestaurants.com/",
     "foursquare": "https://foursquare.com/v/the-burger-stand-at-the-casbah/4c2e604aed37a593b4796503",
     "section": "Food",
-    "tags": []
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
   },
   "encore": {
     "name": "Encore",
@@ -123,6 +126,19 @@
     "map": "",
     "website": "http://www.encore-cafe.com/",
     "foursquare": "https://foursquare.com/v/encore-cafe/4b4b4c9df964a520dc9626e3",
+    "section": "Food",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
+  },
+  "la-parrilla": {
+    "name": "La Parrilla",
+    "address": "724 Massachusetts St",
+    "description": "Latin American Cuisine.",
+    "map": "",
+    "website": "http://www.laparrillaks.com/lawrence/index.shtml",
+    "foursquare": "https://foursquare.com/v/la-parrilla/4afc5e1bf964a520f72122e3",
     "section": "Food",
     "tags": [
       "vegan",
@@ -138,5 +154,18 @@
     "foursquare": "https://foursquare.com/v/limestone-pizza/53433170498e0220ab2a1a31",
     "section": "Food",
     "tags": []
+  },
+  "rudys": {
+    "name": "Rudy's Pizzeria",
+    "address": "704 Massachusetts St",
+    "description": "Pizza by the slice & rated 'Best of Lawrence' 5x.",
+    "map": "",
+    "website": "http://rudyspizzeria.com/",
+    "foursquare": "https://foursquare.com/v/rudys-pizzeria/4b059732f964a5208ddf22e3",
+    "section": "Food",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
   }
 }
