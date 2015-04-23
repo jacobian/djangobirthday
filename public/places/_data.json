@@ -168,5 +168,20 @@
       "vegan",
       "vegetarian"
     ]
+  },
+  "roost": {
+    "name": "The Roost",
+    "address": "920 Massachusetts St",
+    "description": "Best breakfast in town.",
+    "map": "",
+    "website": "http://www.920mass.com/",
+    "foursquare": "https://foursquare.com/v/the-roost/51e8405ee4b03c67d3647357",
+    "section": "Food",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "vegetarian"
+    ]
   }
 }
