@@ -3,10 +3,12 @@ extends base.jade
 block pagetitle
   | Guide - Django Birthday
 
-mixin place_details(section_name, place_list)
+mixin place_details(section_name, section_icon, place_list)
   .row
     .col-md-12
-      h3= section_name
+      h3
+        i(class="#{section_icon}")&nbsp;
+        = section_name
 
   .row
     for place, slug in place_list
@@ -42,6 +44,6 @@ block content
           <a href="http://libertyhall.net/">Liberty Hall</a>, the Django
           Birthday venue.
     .row
-      +place_details('Coffee', public.places._data)
-      +place_details('Food', public.places._data)
-      +place_details('Booze', public.places._data)
+      +place_details('Coffee', 'fa fa-coffee', public.places._data)
+      +place_details('Food', 'fa fa-cutlery', public.places._data)
+      +place_details('Booze', 'fa fa-beer', public.places._data)
