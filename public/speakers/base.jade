@@ -1,0 +1,13 @@
+extends ../base.jade
+
+mixin social(icon, href, title)
+  span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)
+    a(href=href)
+      i.fa.fa-square-o.fa-stack-2x
+      i(class="fa fa-#{icon} fa-stack-1x")
+
+append afterbody
+  script.
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })

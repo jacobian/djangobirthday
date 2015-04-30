@@ -1,4 +1,4 @@
-extends ../base.jade
+extends ./base.jade
 
 block pagetitle
   | Speaker Name - Django Birthday
@@ -18,3 +18,7 @@ block content
           oscillation of the mind. What starts out as hope soon becomes debased
           into a dialectic of temptation, leaving only a sense of failing and
           the chance of a new understanding.
+        p.thesocial
+          +social("globe", "https://example.com/", "website")
+          +social("twitter", "https://twitter.com/example", "twitter")
+          +social("facebook", "https://facebook.com/example", "facebook")
