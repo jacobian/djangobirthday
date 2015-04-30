@@ -67,6 +67,11 @@ block content
         p
           a(href="http://www.revsys.com/")
             img(src="/im/revsys-logo.png" alt="Revolution Systems")
+        h3 Sponsored By:
+          for sponsor in public.sponsors._data
+            p
+              a(href=sponsor.url)
+                img(src="/sponsors/#{sponsor.image}", width="50%", alt="#{sponsor.name}")
         h3 Interested in Sponsoring?
         p.
           Sponsorships are crucial to us being able to provide not only a
