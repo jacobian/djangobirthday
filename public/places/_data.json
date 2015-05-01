@@ -169,6 +169,45 @@
       "vegetarian"
     ]
   },
+  "sylas": {
+    "name": "Sylas and Maddy's",
+    "address": "1014 Massachusetts St",
+    "description": "Homemade Ice Cream and Waffle Cones",
+    "map": "",
+    "website": "https://www.facebook.com/pages/Sylas-Maddys/221535921231",
+    "foursquare": "https://foursquare.com/v/sylas--maddys/4b5f9fb9f964a5203bc529e3",
+    "section": "Food",
+    "tags": [
+      "ice cream",
+      "dessert"
+    ]
+  },
+  "wheatfields": {
+    "name": "Wheatfields Bakery",
+    "address": "904 Vermont Street",
+    "description": "Award-winning Wheatfields Bakery and Cafe",
+    "map": "",
+    "website": "http://www.wheatfieldsbakery.com/",
+    "foursquare": "https://foursquare.com/v/wheatfields/4bd9c8fb2e6f0f47d4f80b08",
+    "section": "Food",
+    "tags": [
+      "breakfast",
+      "bakery"
+    ]
+  },
+  "terrebonne": {
+    "name": "Terrebonne Po' Boys and Cafe",
+    "address": "805 Vermont St.",
+    "description": "Cajun Po' Boys and Food",
+    "map": "",
+    "website": "http://www.terrebonnepoboys.com/",
+    "foursquare": "https://foursquare.com/v/terrebonne/4bb0edf6f964a520396b3ce3?sort=recent",
+    "section": "Food",
+    "tags": [
+      "sandwiches",
+      "hushpuppies"
+    ]
+  },
   "roost": {
     "name": "The Roost",
     "address": "920 Massachusetts St",
