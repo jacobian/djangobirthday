@@ -1,0 +1,43 @@
+extends ../base.jade
+
+mixin social(icon, href, title)
+  span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)
+    a(href=href)
+      i.fa.fa-square-o.fa-stack-2x
+      i(class="fa fa-#{icon} fa-stack-1x")
+
+block pagetitle
+  | Speakers - Django Birthday
+
+block content
+  .container
+    .row
+      .col-sm-8
+        h1 Speakers
+        p.lead.
+          Who's speaking at Django Birthday?
+    hr
+    .row(id="adrian")
+      .col-sm-4.hidden-xs
+        img(src="./adrian.jpg", width="100%", alt="Adrian Holovaty")
+      .col-sm-8
+        h3 Adrian Holovaty
+        p.lead.
+          Adrian is co-creator and former co-BDFL of Django.
+          He was working as lead developer at World Online when the team decided
+          to open-source their homegrown collection of web development tools.
+          These days he's making <a href="http://soundslice.com/">Soundslice</a>.
+        p.thesocial
+          +social("globe", "http://www.holovaty.com/", "website")
+          +social("twitter", "https://twitter.com/adrianholovaty", "twitter")
+          +social("youtube", "https://www.youtube.com/adrianholovaty", "youtube")
+    hr
+    .row
+      .col-sm-8
+        p.lead … and many more; stay tuned!
+
+append afterbody
+  script.
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
