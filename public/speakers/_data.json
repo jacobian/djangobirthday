@@ -1,0 +1,17 @@
+{
+    "index": {
+        "speakers": [
+            {
+                "slug": "adrian",
+                "image": "adrian.jpg",
+                "name": "Adrian Holovaty",
+                "bio": "Adrian is co-creator and former co-BDFL of Django. He was working as lead developer at World Online when the team decided to open-source their homegrown collection of web development tools. These days he's making <a href='http://soundslice.com/'>Soundslice</a>.",
+                "social": [
+                    {"icon": "globe", "link": "http://www.holovaty.com/", "title": "website"},
+                    {"icon": "twitter", "link": "https://twitter.com/adrianholovaty", "title": "twitter"},
+                    {"icon": "youtube", "link": "https://www.youtube.com/adrianholovaty", "title": "youtube"}
+                ]
+            }
+        ]
+    }
+}
