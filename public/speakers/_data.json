@@ -11,6 +11,15 @@
                     {"icon": "twitter", "link": "https://twitter.com/adrianholovaty", "title": "twitter"},
                     {"icon": "youtube", "link": "https://www.youtube.com/adrianholovaty", "title": "youtube"}
                 ]
+            },
+            {
+                "slug": "ola",
+                "image": "ola.jpg",
+                "name": "Ola Sitarska",
+                "bio": "Ola Sitarska is a Django Developer at <a href='https://p.ota.to/'>Potato</a>. She started working with Django 6 years ago, when she discovered the power of Django admin and quickly fell in love with the beauty of Python. Last year, Ola started <a href='https://djangogirls.org/'>Django Girls</a>, an initiative to inspire more women to become programmers. Together with Ola Sendecka, she also co-authored the <a href='https://tutorial.djangogirls.org/'>Django Girls Tutorial</a>, which has been visited by more than 30.000 people so far. She is also a member of the Django Core Team and was responsible for the shipping of <a href='https://djangoproject.com/'>djangoproject.com</a> redesign. In 2015, she became a <a href='https://djangoproject.com/foundation/'>Django Software Foundation</a> board member. Ola is also known as A Person With The <a href='https://2013.djangocon.eu/'>Django Circus</a> Idea™. Her superpower is unstoppable enthusiasm.",
+                "social": [
+                    {"icon": "twitter", "link": "http://twitter.com/olasitarska", "title": "twitter"}
+                ]
             }
         ]
     }
