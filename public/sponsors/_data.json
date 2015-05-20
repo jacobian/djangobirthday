@@ -3,5 +3,10 @@
         "name": "Potato",
         "url": "https://p.ota.to/",
         "image": "potato.png"
+    },
+    "plushrugs": {
+        "name": "PlushRugs",
+        "url": "http://plushrugs.com",
+        "image": "plushrugs.svg"
     }
 }
