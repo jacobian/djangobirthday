@@ -25,7 +25,7 @@
                 "slug": "alex",
                 "image": "alex.jpg",
                 "name": "Alex Gaynor",
-                "bio": "I'm an emeritus Django core developer and former DSF director. I'm a software engineer for the United States Department of Veterans Affairs, and a director of the Python Software Foundation. I live in Washington D.C., and can be found at github.com/alex.",
+                "bio": "I'm an emeritus Django core developer and former DSF director. I'm a software engineer for the United States Department of Veterans Affairs, and a director of the Python Software Foundation. I live in Washington D.C.",
                 "social": [
                     {"icon": "globe", "link": "https://alexgaynor.net/", "title": "website"},
                     {"icon": "github", "link": "https://github.com/alex", "title": "github"}
