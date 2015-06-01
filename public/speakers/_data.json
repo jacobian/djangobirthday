@@ -2,6 +2,7 @@
     "index": {
         "speakers": [
             {
+                "active": true,
                 "slug": "adrian",
                 "image": "adrian.jpg",
                 "name": "Adrian Holovaty",
@@ -13,6 +14,7 @@
                 ]
             },
             {
+                "active": true,
                 "slug": "ola",
                 "image": "ola.jpg",
                 "name": "Ola Sitarska",
@@ -22,6 +24,7 @@
                 ]
             },
             {
+                "active": true,
                 "slug": "alex",
                 "image": "alex.jpg",
                 "name": "Alex Gaynor",
@@ -29,6 +32,37 @@
                 "social": [
                     {"icon": "globe", "link": "https://alexgaynor.net/", "title": "website"},
                     {"icon": "github", "link": "https://github.com/alex", "title": "github"}
+                ]
+            },
+            {
+                "active": false,
+                "slug": "lacey",
+                "image": "lacey.jpg",
+                "name": "Lacey Williams Henschel",
+                "bio": "Lacey is a senior software developer for the University of Texas at Austin, but she telecommutes from Portland, OR. She's the co-organizer of <a href='http://djangogirls.org/portland/'>Django Girls Portland</a> and <a href='http://djangogirls.org/djangoconus/'>Django Girls Austin (happening at DjangoCon)</a>, and the Diversity Chair and Financial Aid Chair for <a href='https://2015.djangocon.us/'>DjangoCon US</a>. She recently wrote an article for Model View Culture on making tech events more accessible to people with disabilities. In her spare time, she's a Big Sister with Big Brothers Big Sisters, serves on the technical board of <a href='http://projectcallisto.org/'>Project Callisto</a>, and tries desperately to develop a green thumb.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/laceynwilliams", "title": "twitter"}
+                ]
+            },
+            {
+                "active": false,
+                "slug": "marc",
+                "image": "marc.jpg",
+                "name": "Marc Tamlyn",
+                "bio": "Marc is a part of the Django core team. He's partially responsible for contrib.postgres, the Django: Under the Hood conference, <a href='http://ccbv.co.uk/'>ccbv.co.uk</a> and bringing small children to Django conferences in Europe. He's the lead developer at <a href='https://www.photocrowd.com/'>photocrowd.com</a>, based in Oxford, UK.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/mjtamlyn", "title": "twitter"}
+                ]
+            },
+            {
+                "active": false,
+                "slug": "eric",
+                "image": "eric.jpg",
+                "name": "Eric Holscher",
+                "bio": "Eric Holscher is a founder of both <a href='https://readthedocs.org/'>Read the Docs</a>, and <a href='http://conf.writethedocs.org/'>Write the Docs</a>. When he isn't helping improve the documentation world, he's out in the woods somewhere.",
+                "social": [
+                    {"icon": "globe", "link": "http://ericholscher.com/", "title": "website"},
+                    {"icon": "twitter", "link": "https://twitter.com/ericholscher", "title": "twitter"}
                 ]
             }
         ]
