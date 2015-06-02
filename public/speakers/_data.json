@@ -56,6 +56,17 @@
             },
             {
                 "active": false,
+                "slug": "andrew",
+                "image": "andrew.jpg",
+                "name": "Andrew Godwin",
+                "bio": "Django core developer, backend engineer, occasional game developer, cheese appreciator, archer and pilot. The chances of finding him at a Django event are relatively high.",
+                "social": [
+                    {"icon": "globe", "link": "http://www.aeracode.org/", "title": "website"},
+                    {"icon": "twitter", "link": "https://twitter.com/andrewgodwin", "title": "twitter"}
+                ]
+            },
+            {
+                "active": false,
                 "slug": "eric",
                 "image": "eric.jpg",
                 "name": "Eric Holscher",
