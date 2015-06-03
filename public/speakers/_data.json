@@ -45,17 +45,7 @@
                 ]
             },
             {
-                "active": false,
-                "slug": "marc",
-                "image": "marc.jpg",
-                "name": "Marc Tamlyn",
-                "bio": "Marc is a part of the Django core team. He's partially responsible for contrib.postgres, the Django: Under the Hood conference, <a href='http://ccbv.co.uk/'>ccbv.co.uk</a> and bringing small children to Django conferences in Europe. He's the lead developer at <a href='https://www.photocrowd.com/'>photocrowd.com</a>, based in Oxford, UK.",
-                "social": [
-                    {"icon": "twitter", "link": "https://twitter.com/mjtamlyn", "title": "twitter"}
-                ]
-            },
-            {
-                "active": false,
+                "active": true,
                 "slug": "andrew",
                 "image": "andrew.jpg",
                 "name": "Andrew Godwin",
@@ -63,6 +53,16 @@
                 "social": [
                     {"icon": "globe", "link": "http://www.aeracode.org/", "title": "website"},
                     {"icon": "twitter", "link": "https://twitter.com/andrewgodwin", "title": "twitter"}
+                ]
+            },
+            {
+                "active": false,
+                "slug": "marc",
+                "image": "marc.jpg",
+                "name": "Marc Tamlyn",
+                "bio": "Marc is a part of the Django core team. He's partially responsible for contrib.postgres, the Django: Under the Hood conference, <a href='http://ccbv.co.uk/'>ccbv.co.uk</a> and bringing small children to Django conferences in Europe. He's the lead developer at <a href='https://www.photocrowd.com/'>photocrowd.com</a>, based in Oxford, UK.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/mjtamlyn", "title": "twitter"}
                 ]
             },
             {
