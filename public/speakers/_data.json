@@ -54,6 +54,12 @@
                 "bio": "Lacey is a senior software developer for the University of Texas at Austin, but she telecommutes from Portland, OR. She's the co-organizer of <a href='http://djangogirls.org/portland/'>Django Girls Portland</a> and <a href='http://djangogirls.org/djangoconus/'>Django Girls Austin (happening at DjangoCon)</a>, and the Diversity Chair and Financial Aid Chair for <a href='https://2015.djangocon.us/'>DjangoCon US</a>. She recently wrote an article for Model View Culture on making tech events more accessible to people with disabilities. In her spare time, she's a Big Sister with Big Brothers Big Sisters, serves on the technical board of <a href='http://projectcallisto.org/'>Project Callisto</a>, and tries desperately to develop a green thumb.",
                 "social": [
                     {"icon": "twitter", "link": "https://twitter.com/laceynwilliams", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "a-more-accessible-django-girls",
+                        "title": "A More Accessible Django Girls"
+                    }
                 ]
             },
             {
