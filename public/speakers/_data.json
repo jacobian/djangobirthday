@@ -108,7 +108,7 @@
                 ]
             },
             {
-                "active": false,
+                "active": true,
                 "slug": "eric",
                 "image": "/speakers/eric.255w.jpg",
                 "image_srcset": "/speakers/eric.255w.jpg 255w, /speakers/eric.510w.jpg 510w, /speakers/eric.640w.jpg 640w",
