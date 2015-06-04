@@ -56,6 +56,17 @@
                 ]
             },
             {
+                "active": true,
+                "slug": "andrea",
+                "image": "andrea.jpg",
+                "name": "Andrea Gonzalez",
+                "bio": "​Django Developer and Django Girls organizer. In love with Python. Geeks out on life. Other interests include sunsets, time travel, photography and regular travel. Currently resides in the delightful city of Tijuana, Baja California.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/andiosuna", "title": "twitter"},
+                    {"icon": "github", "link": "https://github.com/andyosuna", "title": "github"}
+                ]
+            },
+            {
                 "active": false,
                 "slug": "marc",
                 "image": "marc.jpg",
