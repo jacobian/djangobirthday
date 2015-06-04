@@ -17,7 +17,7 @@ block content
             h2= speaker.name
         .row
           .col-sm-3.hidden-xs
-            p: img(src="./#{speaker.image}", width="100%", alt=speaker.name)
+            p: img(src="#{speaker.image}", srcset="#{speaker.image_srcset}" width="100%", alt=speaker.name)
           .col-sm-8
             p.lead!= speaker.bio
             if speaker.talks
