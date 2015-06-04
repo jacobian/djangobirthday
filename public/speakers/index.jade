@@ -20,6 +20,10 @@ block content
             p: img(src="./#{speaker.image}", width="100%", alt=speaker.name)
           .col-sm-8
             p.lead!= speaker.bio
+            if speaker.talks
+              p.talks Talk: 
+                for t in speaker.talks
+                  a(href="../talks/##{t.slug}")= t.title
             if speaker.social
               p.thesocial
                 for s in speaker.social
