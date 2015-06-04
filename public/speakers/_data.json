@@ -117,6 +117,12 @@
                 "social": [
                     {"icon": "globe", "link": "http://ericholscher.com/", "title": "website"},
                     {"icon": "twitter", "link": "https://twitter.com/ericholscher", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "documentation-as-empathy",
+                        "title": "Documentation as Empathy"
+                    }
                 ]
             }
         ]
