@@ -21,6 +21,12 @@
                 "bio": "Ola Sitarska is a Django Developer at <a href='https://p.ota.to/'>Potato</a>. She started working with Django 6 years ago, when she discovered the power of Django admin and quickly fell in love with the beauty of Python. Last year, Ola started <a href='https://djangogirls.org/'>Django Girls</a>, an initiative to inspire more women to become programmers. Together with Ola Sendecka, she also co-authored the <a href='https://tutorial.djangogirls.org/'>Django Girls Tutorial</a>, which has been visited by more than 30.000 people so far. She is also a member of the Django Core Team, and part of the team responsible for the shipping of <a href='https://djangoproject.com/'>djangoproject.com</a> redesign. In 2015, she became a <a href='https://djangoproject.com/foundation/'>Django Software Foundation</a> board member. Ola is also known as A Person With The <a href='https://2013.djangocon.eu/'>Django Circus</a> Idea™. Her superpower is unstoppable enthusiasm.",
                 "social": [
                     {"icon": "twitter", "link": "http://twitter.com/olasitarska", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "🐍🐴🎈",
+                        "title": "Snakes, ponies and balloons: stories of teaching Django to thousands of women."
+                    }
                 ]
             },
             {
@@ -32,6 +38,12 @@
                 "social": [
                     {"icon": "globe", "link": "https://alexgaynor.net/", "title": "website"},
                     {"icon": "github", "link": "https://github.com/alex", "title": "github"}
+                ],
+                "talks": [
+                    {
+                        "slug": "7yrs-w-django",
+                        "title": "7 years with Django, to core developer and back"
+                    }
                 ]
             },
             {
@@ -42,6 +54,12 @@
                 "bio": "Lacey is a senior software developer for the University of Texas at Austin, but she telecommutes from Portland, OR. She's the co-organizer of <a href='http://djangogirls.org/portland/'>Django Girls Portland</a> and <a href='http://djangogirls.org/djangoconus/'>Django Girls Austin (happening at DjangoCon)</a>, and the Diversity Chair and Financial Aid Chair for <a href='https://2015.djangocon.us/'>DjangoCon US</a>. She recently wrote an article for Model View Culture on making tech events more accessible to people with disabilities. In her spare time, she's a Big Sister with Big Brothers Big Sisters, serves on the technical board of <a href='http://projectcallisto.org/'>Project Callisto</a>, and tries desperately to develop a green thumb.",
                 "social": [
                     {"icon": "twitter", "link": "https://twitter.com/laceynwilliams", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "a-more-accessible-django-girls",
+                        "title": "A More Accessible Django Girls"
+                    }
                 ]
             },
             {
@@ -53,6 +71,12 @@
                 "social": [
                     {"icon": "globe", "link": "http://www.aeracode.org/", "title": "website"},
                     {"icon": "twitter", "link": "https://twitter.com/andrewgodwin", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-conspirancy",
+                        "title": "Django: The Conspiracy"
+                    }
                 ]
             },
             {
