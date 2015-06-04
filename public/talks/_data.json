@@ -5,7 +5,8 @@
                 "active": false,
                 "slug": "django-regrets",
                 "speaker": {
-                    "image": "adrian.jpg",
+                    "image": "/speakers/adrian.255w.jpg",
+                    "image_srcset": "/speakers/adrian.255w.jpg 255w, /speakers/adrian.600w.jpg 600w",
                     "name": "Adrian Holovaty",
                     "slug": "adrian"
                 },
@@ -16,7 +17,8 @@
                 "active": true,
                 "slug": "🐍🐴🎈",
                 "speaker": {
-                    "image": "ola.jpg",
+                    "image": "/speakers/ola.255w.jpg",
+                    "image_srcset": "/speakers/ola.255w.jpg 255w, /speakers/ola.510w.jpg 510w, /speakers/ola.765w.jpg 765w",
                     "name": "Ola Sitarska",
                     "slug": "ola"
                 },
@@ -27,7 +29,8 @@
                 "active": true,
                 "slug": "7yrs-w-django",
                 "speaker": {
-                    "image": "alex.jpg",
+                    "image": "/speakers/alex.255w.jpg",
+                    "image_srcset": "/speakers/alex.255w.jpg 255w, /speakers/alex.510w.jpg 510w, /speakers/alex.683w.jpg 683w",
                     "name": "Alex Gaynor",
                     "slug": "alex"
                 },
@@ -38,7 +41,8 @@
                 "active": true,
                 "slug": "a-more-accessible-django-girls",
                 "speaker": {
-                    "image": "lacey.jpg",
+                    "image": "/speakers/lacey.255w.jpg",
+                    "image_srcset": "/speakers/lacey.255w.jpg 255w, /speakers/lacey.510w.jpg 510w, /speakers/lacey.640w.jpg 640w",
                     "name": "Lacey Williams Henschel",
                     "slug": "lacey"
                 },
@@ -49,7 +53,8 @@
                 "active": true,
                 "slug": "django-conspirancy",
                 "speaker": {
-                    "image": "andrew.jpg",
+                    "image": "/speakers/andrew.255w.jpg",
+                    "image_srcset": "/speakers/andrew.255w.jpg 255w, /speakers/andrew.510w.jpg 510w, /speakers/andrew.640w.jpg 640w",
                     "name": "Andrew Godwin",
                     "slug": "andrew"
                 },
@@ -58,9 +63,22 @@
             },
             {
                 "active": false,
+                "slug": "djano-mexico",
+                "title": "Django in Mexico",
+                "abstract": "",
+                "speaker": {
+                    "slug": "andrea",
+                    "image": "/speakers/andrea.255w.jpg",
+                    "image_srcset": "/speakers/andrea.255w.jpg 255w, /speakers/andrea.510w.jpg 510w, /speakers/andrea.640w.jpg 640w",
+                    "name": "Andrea Gonzalez"
+                }
+            },
+            {
+                "active": false,
                 "slug": "development-milestones",
                 "speaker": {
-                    "image": "marc.jpg",
+                    "image": "/speakers/marc.255w.jpg",
+                    "image_srcset": "/speakers/marc.255w.jpg 255w, /speakers/marc.510w.jpg 510w, /speakers/marc.640w.jpg 640w",
                     "name": "Marc Tamlyn",
                     "slug": "marc"
                 },
@@ -71,7 +89,8 @@
                 "active": false,
                 "slug": "documentation-as-empathy",
                 "speaker": {
-                    "image": "eric.jpg",
+                    "image": "/speakers/eric.255w.jpg",
+                    "image_srcset": "/speakers/eric.255w.jpg 255w, /speakers/eric.510w.jpg 510w, /speakers/eric.640w.jpg 640w",
                     "name": "Eric Holscher",
                     "slug": "Eric"
                 },
