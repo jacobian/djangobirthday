@@ -62,10 +62,10 @@
                 "abstract": "Ten years after the project known as \"Django\" was released to the public, there are still unanswered questions. Why did one of the original authors flee the country? What happened to all the removed magic? And, more importantly, why are there secret messages hidden in the template parser's regular expressions? I'll be attempting to throw light on some of the dark secrets of Django and, perhaps, finally divine its true purpose, after almost a decade of searching."
             },
             {
-                "active": false,
+                "active": true,
                 "slug": "djano-mexico",
-                "title": "Django in Mexico",
-                "abstract": "",
+                "title": "The Mysterious Django Community in Mexico",
+                "abstract": "When I set out to bring Django Girls to the city of Tijuana, I never expected to find so many programmers. Even more unexpected was a small group of Python/Django developers I found, passionate about kickstarting the Python community in Baja California. As Django Girls (and later, Django Girls Ensenada) came and went, I learned more about the Django community in other cities of Mexico, including the reason why I never heard of them before organizing the workshop.",
                 "speaker": {
                     "slug": "andrea",
                     "image": "/speakers/andrea.255w.jpg",
@@ -74,7 +74,7 @@
                 }
             },
             {
-                "active": false,
+                "active": true,
                 "slug": "development-milestones",
                 "speaker": {
                     "image": "/speakers/marc.255w.jpg",
