@@ -136,6 +136,14 @@
                         "title": "Development milestones, 1.0 onwards"
                     }
                 ]
+            },
+            {
+                "active": false,
+                "slug": "kenneth",
+                "image": "/speakers/kenneth.255w.jpg",
+                "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
+                "name": "Kenneth Reitz",
+                "bio": ""
             }
         ]
     }

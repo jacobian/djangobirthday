@@ -96,6 +96,18 @@
                 },
                 "title": "Development milestones, 1.0 onwards",
                 "abstract": "Every release, Django adds some more headline features which let us get work done. We'll take a quick look at the major releases, the headline features they shipped, and wonder how we ever wrote a site with Django 1.0."
+            },
+            {
+                "active": false,
+                "slug": "django-dreams",
+                "title": "Django Dreams",
+                "abstract": "An exposé on what the future of Django could look like, from Kenneth’s perspective. Let’s strive to make the world a better place, with Django as a centerpoint.",
+                "speaker": {
+                    "image": "/speakers/kenneth.255w.jpg",
+                    "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
+                    "name": "MKenneth Reitz",
+                    "slug": "kenneth"
+                }
             }
         ]
     }
