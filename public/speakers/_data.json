@@ -97,7 +97,7 @@
                 ],
                 "talks": [
                     {
-                        "slug": "djano-mexico",
+                        "slug": "django-mexico",
                         "title": "The Mysterious Django Community in Mexico"
                     }
                 ]
