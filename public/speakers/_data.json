@@ -12,6 +12,12 @@
                     {"icon": "globe", "link": "http://www.holovaty.com/", "title": "website"},
                     {"icon": "twitter", "link": "https://twitter.com/adrianholovaty", "title": "twitter"},
                     {"icon": "youtube", "link": "https://www.youtube.com/adrianholovaty", "title": "youtube"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-regrets",
+                        "title": "Django Regrets"
+                    }
                 ]
             },
             {

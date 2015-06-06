@@ -2,7 +2,7 @@
     "index": {
         "talks": [
             {
-                "active": false,
+                "active": true,
                 "slug": "django-regrets",
                 "speaker": {
                     "image": "/speakers/adrian.255w.jpg",
@@ -11,7 +11,7 @@
                     "slug": "adrian"
                 },
                 "title": "Django Regrets",
-                "abstract": ""
+                "abstract": "With the benefit of hindsight, here are a bunch of things I've regretted about doing, and not doing, in helping develop Django. Learn from my mistakes!"
             },
             {
                 "active": true,
