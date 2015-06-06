@@ -143,7 +143,17 @@
                 "image": "/speakers/kenneth.255w.jpg",
                 "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
                 "name": "Kenneth Reitz",
-                "bio": ""
+                "bio": "Kenneth Reitz is the product owner of Python at Heroku, and a member of the Python Software Foundation. As the author of Requests, he has an enormously broad perspective on the needs and desires of Django users and the general Python community.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/kennethreitz", "title": "twitter"},
+                    {"icon": "globe", "link": "http://www.kennethreitz.org/", "title": "website"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-dreams",
+                        "title": "Django Dreams"
+                    }
+                ]
             }
         ]
     }
