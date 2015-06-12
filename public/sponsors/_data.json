@@ -23,5 +23,15 @@
         "name": "Python Software Foundation",
         "url": "https://www.python.org/psf/",
         "image": "psf-logo.png"
+    },
+    "dsf": {
+        "name": "Django Software Foundation",
+        "url": "https://www.djangoproject.com/",
+        "image": "django-logo-positive.png"
+    },
+    "treehouse": {
+        "name": "Treehouse",
+        "url": "https://teamtreehouse.com/",
+        "image": "treehouse.png"
     }
 }
