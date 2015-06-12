@@ -18,5 +18,10 @@
         "name": "Reelio",
         "url": "https://reelio.com/",
         "image": "reelio.png"
+    },
+    "psf": {
+        "name": "Python Software Foundation",
+        "url": "https://www.python.org/psf/",
+        "image": "psf-logo.png"
     }
 }
