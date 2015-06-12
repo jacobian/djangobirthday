@@ -13,5 +13,10 @@
         "name": "Lincoln Loop",
         "url": "https://lincolnloop.com/",
         "image": "ll_logo.png"
+    },
+    "reelio": {
+        "name": "Reelio",
+        "url": "https://reelio.com/",
+        "image": "reelio.png"
     }
 }
