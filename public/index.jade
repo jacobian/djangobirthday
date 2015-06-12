@@ -63,24 +63,47 @@ block content
            <a href="/guide">guide to downtown Lawrence</a>.
 
       .col-md-4
-        h3 Presented By:
-        p
-          a(href="http://www.revsys.com/")
-            img(src="/im/revsys-logo.png" alt="Revolution Systems")
-        h3 Sponsored By:
-          for sponsor in public.sponsors._data
+        .row
+          .col-md-12
+            h3 Presented By:
+            for sponsor in public.sponsors._data
+              if sponsor.type == 'presented'
+                p
+                  a(href=sponsor.url)
+                    img(src="/sponsors/#{sponsor.image}", width="100%", alt="#{sponsor.name}")
+                  br
+
+        .row
+          .col-md-12
+            h3 Sponsored By:
+            for sponsor in public.sponsors._data
+              if sponsor.type == 'sponsor'
+                p
+                  a(href=sponsor.url)
+                    img(src="/sponsors/#{sponsor.image}", width="50%", alt="#{sponsor.name}")
+                  br
+
+        .row
+          .col-md-12
+            h3 Travel Sponsors, Sponsored By:
+            for sponsor in public.sponsors._data
+              if sponsor.type == 'travel'
+                p
+                  a(href=sponsor.url)
+                    img(src="/sponsors/#{sponsor.image}", width="50%", alt="#{sponsor.name}")
+                  br
+
+        .row
+          .col-md-12
+            h3 Interested in Sponsoring?
+            p.
+              Sponsorships are crucial to us being able to provide not only a
+              great conference but to help with travel scholarships for speakers
+              and attendees.
             p
-              a(href=sponsor.url)
-                img(src="/sponsors/#{sponsor.image}", width="50%", alt="#{sponsor.name}")
-        h3 Interested in Sponsoring?
-        p.
-          Sponsorships are crucial to us being able to provide not only a
-          great conference but to help with travel scholarships for speakers
-          and attendees.
-        p
-          | View our
-          a(href="/sponsoring")  Sponsorship Information
-          | .
+              | View our
+              a(href="/sponsoring")  Sponsorship Information
+              | .
 
 append afterbody
   script(src='#{baseUrl}/js/snowfall.jquery.min.js')

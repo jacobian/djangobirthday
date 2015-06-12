@@ -1,37 +1,50 @@
 {
+    "revsys": {
+        "name": "Revolution Systems",
+        "url": "http://www.revsys.com/",
+        "type": "presented",
+        "image": "revsys-logo.png"
+    },
     "potato": {
         "name": "Potato",
         "url": "https://p.ota.to/",
+        "type": "sponsor",
         "image": "potato.png"
     },
     "plushrugs": {
         "name": "PlushRugs",
         "url": "http://plushrugs.com",
+        "type": "sponsor",
         "image": "plushrugs.svg"
     },
     "lincolnloop": {
         "name": "Lincoln Loop",
         "url": "https://lincolnloop.com/",
+        "type": "sponsor",
         "image": "ll_logo.png"
     },
     "reelio": {
         "name": "Reelio",
         "url": "https://reelio.com/",
+        "type": "sponsor",
         "image": "reelio.png"
     },
     "psf": {
         "name": "Python Software Foundation",
         "url": "https://www.python.org/psf/",
+        "type": "travel",
         "image": "psf-logo.png"
     },
     "dsf": {
         "name": "Django Software Foundation",
         "url": "https://www.djangoproject.com/",
+        "type": "travel",
         "image": "django-logo-positive.png"
     },
     "treehouse": {
         "name": "Treehouse",
         "url": "https://teamtreehouse.com/",
+        "type": "sponsor",
         "image": "treehouse.png"
     }
 }
