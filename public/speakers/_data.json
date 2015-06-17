@@ -22,6 +22,24 @@
             },
             {
                 "active": true,
+                "slug": "simon",
+                "image": "/speakers/simon.jpg",
+                "image_srcset": "/speakers/simon.255w.jpg 255w, /speakers/simon.510w.jpg 510w, /speakers/simon.640w.jpg 640w",
+                "name": "Simon Willison",
+                "bio": "Simon Willison runs the software architecture team at Eventbrite. Prior to that he was the co-founder of <a href='http://lanyrd.com/'>Lanyrd.com</a>, a Y Combinator funded company which helps people find conferences, user groups and other knowledge-sharing events to attend or speak at. He has previously worked in London for the Guardian and Yahoo!. Simon is a co-creator of the Django Web Framework.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/simonw", "title": "twitter"},
+                    {"icon": "globe", "link": "http://lanyrd.com/profile/simonw/", "title": "website"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-things",
+                        "title": "Some things I've made with Django"
+                    }
+                ]
+            },
+            {
+                "active": true,
                 "slug": "ola",
                 "image": "/speakers/ola.255w.jpg",
                 "image_srcset": "/speakers/ola.255w.jpg 255w, /speakers/ola.510w.jpg 510w, /speakers/ola.765w.jpg 765w",
@@ -144,7 +162,7 @@
                 ]
             },
             {
-                "active": false,
+                "active": true,
                 "slug": "kenneth",
                 "image": "/speakers/kenneth.255w.jpg",
                 "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
@@ -158,6 +176,108 @@
                     {
                         "slug": "django-dreams",
                         "title": "Django Dreams"
+                    }
+                ]
+            },
+            {
+                "active": true,
+                "slug": "jeremy",
+                "image": "/speakers/jeremy.jpg",
+                "image_srcset": "/speakers/jeremy.255w.jpg 255w, /speakers/jeremy.510w.jpg 510w, /speakers/jeremy.640w.jpg 640w",
+                "name": "Jeremy Carbaugh",
+                "bio": "I am a senior developer at Sunlight Foundation, focusing on web and iOS development. Prior to joining Sunlight, I worked as a government contractor developing software for the likes of the IRS, FBI and Treasury.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/jcarbaugh", "title": "twitter"},
+                    {"icon": "github", "link": "https://github.com/jcarbaugh", "title": "github"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-nonprofit",
+                        "title": "Django Built a Nonprofit"
+                    }
+                ]
+            },
+            {
+                "active": true,
+                "slug": "james",
+                "image": "/speakers/james.jpg",
+                "image_srcset": "/speakers/james.255w.jpg 255w, /speakers/james.510w.jpg 510w, /speakers/james.640w.jpg 640w",
+                "name": "James Turk",
+                "bio": "We have been with Sunlight Foundation for 8 years. When we started, Sunlight's web properties were built with PHP and Drupal. We transitioned the organization to Python and Django (0.96) and participated in the Django 1.0 sprint in DC.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/jamesturk", "title": "twitter"},
+                    {"icon": "github", "link": "https://github.com/jamesturk", "title": "github"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-nonprofit",
+                        "title": "Django Built a Nonprofit"
+                    }
+                ]
+            },
+            {
+                "active": true,
+                "slug": "craig",
+                "image": "/speakers/changeme.jpg",
+                "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                "name": "Craig Bruce",
+                "bio": "Following his PhD from the University of Nottingham in Cheminformatics Craig moved to AstraZeneca Pharmaceuticals as a Scientific Computing Specialist. He took a Django project used by chemists worldwide and transplanted it into a highly available cluster, upgrading every hardware and software component along the way. Since then he moved to Santa Fe, NM to work on the scientific cloud offerings at OpenEye Scientific Software, which are also written in Django and hosted completely on Amazon Web Services.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/craigbruce", "title": "twitter"}
+                ],
+                "talks": [
+                    {
+                        "slug": "django-health",
+                        "title": "How Django is good for your health"
+                    }
+                ]
+            },
+            {
+                "active": true,
+                "slug": "love",
+                "image": "/speakers/love.jpg",
+                "image_srcset": "/speakers/love.255w.jpg 255w, /speakers/love.510w.jpg 510w, /speakers/love.640w.jpg 640w",
+                "name": "Kenneth Love",
+                "bio": "I'm the Python teacher for Treehouse where I get to teach thousands of people about Python, Flask, and Django through videos, quizzes, and code challenges. I've also done technical editing for a few different Python and Django books. I also did my own videos about Django years ago and created the django-braces package to help people w it their class-based generic views.",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/kennethlove", "title": "twitter"},
+                    {"icon": "globe", "link": "http://teamtreehouse.com/hello", "title": "website"}
+                ],
+                "talks": [
+                    {
+                        "slug": "python-pony",
+                        "title": "Give A Python a Pony"
+                    }
+                ]
+            },
+            {
+                "active": true,
+                "slug": "mikeal",
+                "image": "/speakers/mikeal.jpg",
+                "image_srcset": "/speakers/mikeal.255w.jpg 255w, /speakers/mikeal.510w.jpg 510w, /speakers/mikeal.640w.jpg 640w",
+                "name": "Mikeal Rogers",
+                "bio": "JS Community Organizer",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/mikeal", "title": "twitter"},
+                    {"icon": "github", "link": "https://github.com/mikeal", "title": "github"},
+                    {"icon": "globe", "link": "http://mikealrogers.com/", "title": "website"}
+                ]
+            },
+            {
+                "active": false,
+                "slug": "changeme",
+                "image": "/speakers/changeme.jpg",
+                "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                "name": "Firstname Lastname",
+                "bio": "YourBio",
+                "social": [
+                    {"icon": "twitter", "link": "https://twitter.com/CHANGEME", "title": "twitter"},
+                    {"icon": "globe", "link": "CHANGEME", "title": "website"}
+                ],
+                "talks": [
+                    {
+                        "slug": "changemme",
+                        "title": "ChangeMe"
                     }
                 ]
             }

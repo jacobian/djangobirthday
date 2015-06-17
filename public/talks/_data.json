@@ -15,6 +15,18 @@
             },
             {
                 "active": true,
+                "slug": "django-things",
+                "title": "Some things I've made with Django",
+                "abstract": "TBD",
+                "speaker": {
+                    "image": "/speakers/simon.255w.jpg",
+                    "image_srcset": "/speakers/simon.255w.jpg 255w, /speakers/simon.510w.jpg 510w, /speakers/simon.640w.jpg 640w",
+                    "name": "Simon Willison",
+                    "slug": "simon"
+                }
+            },
+            {
+                "active": true,
                 "slug": "🐍🐴🎈",
                 "speaker": {
                     "image": "/speakers/ola.255w.jpg",
@@ -107,6 +119,54 @@
                     "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
                     "name": "Kenneth Reitz",
                     "slug": "kenneth"
+                }
+            },
+            {
+                "active": true,
+                "slug": "django-nonprofit",
+                "title": "Django Built a Nonprofit",
+                "abstract": "We have been with Sunlight Foundation for 8 years. When we started, Sunlight's web properties were built with PHP and Drupal. We transitioned the organization to Python and Django (0.96) and participated in the Django 1.0 sprint in DC.",
+                "speaker": {
+                    "image": "/speakers/james.255w.jpg",
+                    "image_srcset": "/speakers/james.255w.jpg 255w, /speakers/james.510w.jpg 510w, /speakers/james.640w.jpg 640w",
+                    "name": "James Turk",
+                    "slug": "james"
+                }
+            },
+            {
+                "active": true,
+                "slug": "django-health",
+                "title": "How Django is good for your health",
+                "abstract": "You know Django as the web framework behind sites like Instagram and Pinterest, but Django is used in many places now. One such place is the pharmaceutical industry, which is the definition of large corporate enterprises. Drug discovery is an immensely hard and expensive challenge. Believe it or not Django can play a meaningful role in that endeavor and ultimately be good for your health. ",
+                "speaker": {
+                    "image": "/speakers/changeme.255w.jpg",
+                    "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                    "name": "Craig Bruce",
+                    "slug": "craig"
+                }
+            },
+            {
+                "active": true,
+                "slug": "python-pony",
+                "title": "Give A Python a Pony",
+                "abstract": "A couple of years ago, I was faced with one of the scariest situations there is for a self-employed developer: I was burned out. The blinking cursor in Vim was taunting me and no number of GitHub issues could motivate me to churn out more than a few lines of code in a day. This burnout, though, led me back to an early love: I started teaching full time.<br/><br/>This is a talk in two parts. In part one, I’ll talk about some of the teaching triumphs I’ve had and witnessed thanks to a new career, the Python and Django worlds, and my employer, Treehouse (and others!). In the second part, I’ll share ways you can start teaching in your own communities and using your own talents, so we can all make the world better through learning.",
+                "speaker": {
+                    "image": "/speakers/love.255w.jpg",
+                    "image_srcset": "/speakers/love.255w.jpg 255w, /speakers/love.510w.jpg 510w, /speakers/love.640w.jpg 640w",
+                    "name": "Kenneth Love",
+                    "slug": "love"
+                }
+            },
+            {
+                "active": false,
+                "slug": "changemme",
+                "title": "ChangeMe",
+                "abstract": "abstract",
+                "speaker": {
+                    "image": "/speakers/changeme.255w.jpg",
+                    "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                    "name": "Firstname Lastname",
+                    "slug": "slug"
                 }
             }
         ]
