@@ -7,7 +7,7 @@
                 "speaker": [
                     {
                         "image": "/speakers/adrian.255w.jpg",
-                        "image_srcset": "/speakers/adrian.255w.jpg 255w, /speakers/adrian.600w.jpg 600w",
+                        "image_srcset": "/speakers/adrian.255w.jpg 255w, /speakers/adrian.600w.jpg 510w, /speakers/adrian.600w.jpg 600w",
                         "name": "Adrian Holovaty",
                         "slug": "adrian"
                     }
