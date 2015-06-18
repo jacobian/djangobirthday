@@ -15,10 +15,12 @@ block content
         .row(id=talk.slug)
           .col-sm-12
             h2(id=talk.slug)
-              | #{talk.title} 
-              a.talk-speaker(href="../speakers/##{talk.speaker.slug}")= talk.speaker.name
+              | #{talk.title}
         .row
           .col-sm-3.hidden-xs
-            p: img(src="#{talk.speaker.image}", srcset="#{talk.speaker.image_srcset}", width="100%", alt=talk.speaker.name)
+            for speaker in talk.speaker
+              img(src="#{speaker.image}", srcset="#{speaker.image_srcset}", width="100%", alt=speaker.name)
+              h3
+                a.talk-speaker(href="../speakers/##{speaker.slug}")= speaker.name
           .col-sm-8
             p.lead!= talk.abstract

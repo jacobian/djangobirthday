@@ -4,12 +4,14 @@
             {
                 "active": true,
                 "slug": "django-regrets",
-                "speaker": {
-                    "image": "/speakers/adrian.255w.jpg",
-                    "image_srcset": "/speakers/adrian.255w.jpg 255w, /speakers/adrian.600w.jpg 600w",
-                    "name": "Adrian Holovaty",
-                    "slug": "adrian"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/adrian.255w.jpg",
+                        "image_srcset": "/speakers/adrian.255w.jpg 255w, /speakers/adrian.600w.jpg 600w",
+                        "name": "Adrian Holovaty",
+                        "slug": "adrian"
+                    }
+                ],
                 "title": "Django Regrets",
                 "abstract": "With the benefit of hindsight, here are a bunch of things I've regretted about doing, and not doing, in helping develop Django. Learn from my mistakes!"
             },
@@ -18,58 +20,68 @@
                 "slug": "django-things",
                 "title": "Some things I've made with Django",
                 "abstract": "TBD",
-                "speaker": {
-                    "image": "/speakers/simon.255w.jpg",
-                    "image_srcset": "/speakers/simon.255w.jpg 255w, /speakers/simon.510w.jpg 510w, /speakers/simon.640w.jpg 640w",
-                    "name": "Simon Willison",
-                    "slug": "simon"
-                }
+                "speaker": [
+                    {
+                        "image": "/speakers/simon.255w.jpg",
+                        "image_srcset": "/speakers/simon.255w.jpg 255w, /speakers/simon.510w.jpg 510w, /speakers/simon.640w.jpg 640w",
+                        "name": "Simon Willison",
+                        "slug": "simon"
+                    }
+                ]
             },
             {
                 "active": true,
                 "slug": "🐍🐴🎈",
-                "speaker": {
-                    "image": "/speakers/ola.255w.jpg",
-                    "image_srcset": "/speakers/ola.255w.jpg 255w, /speakers/ola.510w.jpg 510w, /speakers/ola.765w.jpg 765w",
-                    "name": "Ola Sitarska",
-                    "slug": "ola"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/ola.255w.jpg",
+                        "image_srcset": "/speakers/ola.255w.jpg 255w, /speakers/ola.510w.jpg 510w, /speakers/ola.765w.jpg 765w",
+                        "name": "Ola Sitarska",
+                        "slug": "ola"
+                    }
+                ],
                 "title": "Snakes, ponies and balloons: stories of teaching Django to thousands of women.",
                 "abstract": "Django Girls is a workshop for total beginners into the world of web building. Started by two Polish girls in Berlin and now organized all over the world in 45 cities, Django Girls aim to inspire women to fell in love with programming. Ola will share with you how she went from not knowing anything about teaching programming or feminism, to knowing a little bit more thanks to thousands of people who participated in the workshop formula Django Girls created. You'll learn the secrets of explaining the Internet, servers or Django ORM to people who never done this before. And how to find 100+ women who want to learn to code just about anywhere. This talk is your introduction to the world of getting girls excited about snakes, ponies and balloons."
             },
             {
                 "active": true,
                 "slug": "7yrs-w-django",
-                "speaker": {
-                    "image": "/speakers/alex.255w.jpg",
-                    "image_srcset": "/speakers/alex.255w.jpg 255w, /speakers/alex.510w.jpg 510w, /speakers/alex.683w.jpg 683w",
-                    "name": "Alex Gaynor",
-                    "slug": "alex"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/alex.255w.jpg",
+                        "image_srcset": "/speakers/alex.255w.jpg 255w, /speakers/alex.510w.jpg 510w, /speakers/alex.683w.jpg 683w",
+                        "name": "Alex Gaynor",
+                        "slug": "alex"
+                    }
+                ],
                 "title": "7 years with Django, to core developer and back",
                 "abstract": "One night, in September 2007, I read every page of Django's documentation and the entire (then draft) Django Book. Over the next few years I became a frequent contributor to Django, including becoming a core developer and later a member of the DSF board. Now I'm largely uninvolved with Django's development. This talk is the story of my time with Django. This talk is a walk through my time with Django -- from emailing Adrian to ask about attending a sprint that had already happened, to contributing patches, to the multi-db GSOC, to Eric Florenzano's keynote, becoming a core developer, joining the board, to slowly fading away and becoming an emeritus developer."
             },
             {
                 "active": true,
                 "slug": "a-more-accessible-django-girls",
-                "speaker": {
-                    "image": "/speakers/lacey.255w.jpg",
-                    "image_srcset": "/speakers/lacey.255w.jpg 255w, /speakers/lacey.510w.jpg 510w, /speakers/lacey.640w.jpg 640w",
-                    "name": "Lacey Williams Henschel",
-                    "slug": "lacey"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/lacey.255w.jpg",
+                        "image_srcset": "/speakers/lacey.255w.jpg 255w, /speakers/lacey.510w.jpg 510w, /speakers/lacey.640w.jpg 640w",
+                        "name": "Lacey Williams Henschel",
+                        "slug": "lacey"
+                    }
+                ],
                 "title": "A More Accessible Django Girls",
                 "abstract": "Appropriate planning and accommodations make Django Girls workshops and other tech events more open to many groups, including people with disabilities, Deaf attendees, attendees with mental illnesses, and more. You'll leave this talk with some concrete things you can do to make your next meetup, workshop, or conference more inclusive of people with disabilities, including how to advertise your accommodations, what to look for in a venue, and some free tools to help your website be more accessible."
             },
             {
                 "active": true,
                 "slug": "django-conspirancy",
-                "speaker": {
-                    "image": "/speakers/andrew.255w.jpg",
-                    "image_srcset": "/speakers/andrew.255w.jpg 255w, /speakers/andrew.510w.jpg 510w, /speakers/andrew.640w.jpg 640w",
-                    "name": "Andrew Godwin",
-                    "slug": "andrew"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/andrew.255w.jpg",
+                        "image_srcset": "/speakers/andrew.255w.jpg 255w, /speakers/andrew.510w.jpg 510w, /speakers/andrew.640w.jpg 640w",
+                        "name": "Andrew Godwin",
+                        "slug": "andrew"
+                    }
+                ],
                 "title": "Django: The Conspiracy",
                 "abstract": "Ten years after the project known as \"Django\" was released to the public, there are still unanswered questions. Why did one of the original authors flee the country? What happened to all the removed magic? And, more importantly, why are there secret messages hidden in the template parser's regular expressions? I'll be attempting to throw light on some of the dark secrets of Django and, perhaps, finally divine its true purpose, after almost a decade of searching."
             },
@@ -78,34 +90,40 @@
                 "slug": "django-mexico",
                 "title": "The Mysterious Django Community in Mexico",
                 "abstract": "When I set out to bring Django Girls to the city of Tijuana, I never expected to find so many programmers. Even more unexpected was a small group of Python/Django developers I found, passionate about kickstarting the Python community in Baja California. As Django Girls (and later, Django Girls Ensenada) came and went, I learned more about the Django community in other cities of Mexico, including the reason why I never heard of them before organizing the workshop.",
-                "speaker": {
-                    "slug": "andrea",
-                    "image": "/speakers/andrea.255w.jpg",
-                    "image_srcset": "/speakers/andrea.255w.jpg 255w, /speakers/andrea.510w.jpg 510w, /speakers/andrea.640w.jpg 640w",
-                    "name": "Andrea Gonzalez"
-                }
+                "speaker": [
+                    {
+                        "slug": "andrea",
+                        "image": "/speakers/andrea.255w.jpg",
+                        "image_srcset": "/speakers/andrea.255w.jpg 255w, /speakers/andrea.510w.jpg 510w, /speakers/andrea.640w.jpg 640w",
+                        "name": "Andrea Gonzalez"
+                    }
+                ]
             },
             {
                 "active": true,
                 "slug": "documentation-as-empathy",
-                "speaker": {
-                    "image": "/speakers/eric.255w.jpg",
-                    "image_srcset": "/speakers/eric.255w.jpg 255w, /speakers/eric.510w.jpg 510w, /speakers/eric.640w.jpg 640w",
-                    "name": "Eric Holscher",
-                    "slug": "Eric"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/eric.255w.jpg",
+                        "image_srcset": "/speakers/eric.255w.jpg 255w, /speakers/eric.510w.jpg 510w, /speakers/eric.640w.jpg 640w",
+                        "name": "Eric Holscher",
+                        "slug": "Eric"
+                    }
+                ],
                 "title": "Documentation as Empathy",
                 "abstract": "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs, and Write the Docs, I have seen a lot of angles, and appreciate documentation more every year. I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Read the Docs started in Lawrence, and has grown from there. This seems like the perfect venue to wax poetic about why documentation matters, and tell the story of Read the Docs along the way. The Django community is one where documentation has always been valued, and I think that understanding how it lead to its success and why it's an important virtue going forward is important. This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. "
             },
             {
                 "active": true,
                 "slug": "development-milestones",
-                "speaker": {
-                    "image": "/speakers/marc.255w.jpg",
-                    "image_srcset": "/speakers/marc.255w.jpg 255w, /speakers/marc.510w.jpg 510w, /speakers/marc.640w.jpg 640w",
-                    "name": "Marc Tamlyn",
-                    "slug": "marc"
-                },
+                "speaker": [
+                    {
+                        "image": "/speakers/marc.255w.jpg",
+                        "image_srcset": "/speakers/marc.255w.jpg 255w, /speakers/marc.510w.jpg 510w, /speakers/marc.640w.jpg 640w",
+                        "name": "Marc Tamlyn",
+                        "slug": "marc"
+                    }
+                ],
                 "title": "Development milestones, 1.0 onwards",
                 "abstract": "Every release, Django adds some more headline features which let us get work done. We'll take a quick look at the major releases, the headline features they shipped, and wonder how we ever wrote a site with Django 1.0."
             },
@@ -114,36 +132,48 @@
                 "slug": "django-dreams",
                 "title": "Django Dreams",
                 "abstract": "An exposé on what the future of Django could look like, from Kenneth’s perspective. Let’s strive to make the world a better place, with Django as a centerpoint.",
-                "speaker": {
-                    "image": "/speakers/kenneth.255w.jpg",
-                    "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
-                    "name": "Kenneth Reitz",
-                    "slug": "kenneth"
-                }
+                "speaker": [
+                    {
+                        "image": "/speakers/kenneth.255w.jpg",
+                        "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
+                        "name": "Kenneth Reitz",
+                        "slug": "kenneth"
+                    }
+                ]
             },
             {
                 "active": true,
                 "slug": "django-nonprofit",
                 "title": "Django Built a Nonprofit",
                 "abstract": "We have been with Sunlight Foundation for 8 years. When we started, Sunlight's web properties were built with PHP and Drupal. We transitioned the organization to Python and Django (0.96) and participated in the Django 1.0 sprint in DC.",
-                "speaker": {
-                    "image": "/speakers/james.255w.jpg",
-                    "image_srcset": "/speakers/james.255w.jpg 255w, /speakers/james.510w.jpg 510w, /speakers/james.640w.jpg 640w",
-                    "name": "James Turk",
-                    "slug": "james"
-                }
+                "speaker": [
+                    {
+                        "image": "/speakers/james.255w.jpg",
+                        "image_srcset": "/speakers/james.255w.jpg 255w, /speakers/james.510w.jpg 510w, /speakers/james.640w.jpg 640w",
+                        "name": "James Turk",
+                        "slug": "james"
+                    },
+                    {
+                        "slug": "jeremy",
+                        "image": "/speakers/jeremy.jpg",
+                        "image_srcset": "/speakers/jeremy.255w.jpg 255w, /speakers/jeremy.510w.jpg 510w, /speakers/jeremy.640w.jpg 640w",
+                        "name": "Jeremy Carbaugh"
+                    }
+                ]
             },
             {
                 "active": true,
                 "slug": "django-health",
                 "title": "How Django is good for your health",
                 "abstract": "You know Django as the web framework behind sites like Instagram and Pinterest, but Django is used in many places now. One such place is the pharmaceutical industry, which is the definition of large corporate enterprises. Drug discovery is an immensely hard and expensive challenge. Believe it or not Django can play a meaningful role in that endeavor and ultimately be good for your health. ",
-                "speaker": {
-                    "image": "/speakers/changeme.255w.jpg",
-                    "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
-                    "name": "Craig Bruce",
-                    "slug": "craig"
-                }
+                "speaker": [
+                    {
+                        "image": "/speakers/changeme.255w.jpg",
+                        "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                        "name": "Craig Bruce",
+                        "slug": "craig"
+                    }
+                ]
             },
             {
                 "active": true,
@@ -162,12 +192,14 @@
                 "slug": "changemme",
                 "title": "ChangeMe",
                 "abstract": "abstract",
-                "speaker": {
-                    "image": "/speakers/changeme.255w.jpg",
-                    "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
-                    "name": "Firstname Lastname",
-                    "slug": "slug"
-                }
+                "speaker": [
+                    {
+                        "image": "/speakers/changeme.255w.jpg",
+                        "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+                        "name": "Firstname Lastname",
+                        "slug": "slug"
+                    }
+                ]
             }
         ]
     }
