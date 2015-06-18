@@ -145,7 +145,7 @@
                 "active": true,
                 "slug": "django-nonprofit",
                 "title": "Django Built a Nonprofit",
-                "abstract": "We have been with Sunlight Foundation for 8 years. When we started, Sunlight's web properties were built with PHP and Drupal. We transitioned the organization to Python and Django (0.96) and participated in the Django 1.0 sprint in DC.",
+                "abstract": "Founded in 2008, the Sunlight Foundation is a nonprofit that uses the civic tech to make government more accountable and transparent. From a single Drupal site, to an organization powered by Django, we’ll tell the story of how a Python web framework built a successful nonprofit. The history of our open source Django apps tell the story of a growing organization and an open government movement. We'll cover various Django apps we have published and how each reflected the state of our organization, the open government community, or Django at the time they were created.",
                 "speaker": [
                     {
                         "image": "/speakers/james.255w.jpg",
