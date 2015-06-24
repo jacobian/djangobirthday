@@ -6,23 +6,23 @@ block pagetitle
 mixin presenter(speakers)
   for speaker, index in speakers
     if speakers.length > 1 && index > 0
-      span ,
-    span  #{speaker.name}
+      | ,
+    | #{speaker.name}
 
 block content
   .container
     .row
       for talk, slug in talks
         if talk.active
-          p Group Name: Django Birthday
-          p Event Name: #djangobirthday
-          p
-            span Presenter(s): &nbsp;
-            +presenter(talk.speakers)
-          p Contact email:
-          p Title: #{talk.title}
-          p Start time:
-          p Duration:
-          p Description: #{talk.abstract}
-          p Released: yes
-          hr
+          pre
+            p Group Name: Django Birthday
+            p Event Name: #djangobirthday
+            p
+              | Presenter(s): 
+              +presenter(talk.speakers)
+            p Contact email:
+            p Title: #{talk.title}
+            p Start time:
+            p Duration: #{talk.time}
+            p Description: #{talk.abstract}
+            p Released: yes
