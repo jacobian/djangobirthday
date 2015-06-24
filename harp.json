@@ -263,7 +263,7 @@
             "slug": "❤️",
             "image": "/speakers/love.255w.jpg",
             "image_srcset": "/speakers/love.255w.jpg 255w, /speakers/love.510w.jpg 510w, /speakers/love.640w.jpg 640w",
-            "bio": "I'm the Python teacher for Treehouse where I get to teach thousands of people about Python, Flask, and Django through videos, quizzes, and code challenges. I've also done technical editing for a few different Python and Django books. I also did my own videos about Django years ago and created the django-braces package to help people w it their class-based generic views.",
+            "bio": "I'm the Python teacher for Treehouse where I get to teach thousands of people about Python, Flask, and Django through videos, quizzes, and code challenges. I've also done technical editing for a few different Python and Django books. I also did my own videos about Django years ago and created the django-braces package to help people with their class-based generic views.",
             "social": [
               {"icon": "twitter", "link": "https://twitter.com/kennethlove", "title": "twitter"},
               {"icon": "globe", "link": "http://teamtreehouse.com/hello", "title": "website"}
