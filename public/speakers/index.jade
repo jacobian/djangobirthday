@@ -11,22 +11,23 @@ block content
         p.lead Who's speaking at Django Birthday?
 
     for talk in talks
-      for speaker in talk.speakers
-        if talk.active
-          .row(id=speaker.slug)
-            .col-sm-12
-              h2= speaker.name
-          .row
-            .col-sm-3.hidden-xs
-              p: img(src="#{speaker.image}", srcset="#{speaker.image_srcset}" width="100%", alt=speaker.name)
-            .col-sm-8
-              p.lead!= speaker.bio
-                p.talks Talk:&nbsp;
-                  a(href="../talks/##{talk.slug}")= talk.title
-              if speaker.social
-                p.thesocial
-                  for s in speaker.social
-                    +social(s.icon, s.link, s.title)
+      if talk.speakers
+        for speaker in talk.speakers
+          if talk.active
+            .row(id=speaker.slug)
+              .col-sm-12
+                h2= speaker.name
+            .row
+              .col-sm-3.hidden-xs
+                p: img(src="#{speaker.image}", srcset="#{speaker.image_srcset}" width="100%", alt=speaker.name)
+              .col-sm-8
+                p.lead!= speaker.bio
+                  p.talks Talk:&nbsp;
+                    a(href="../talks/##{talk.slug}")= talk.title
+                if speaker.social
+                  p.thesocial
+                    for s in speaker.social
+                      +social(s.icon, s.link, s.title)
 
 mixin social(icon, href, title)
   span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)
