@@ -221,5 +221,18 @@
       "brunch",
       "vegetarian"
     ]
+  },
+  "taco-zone": {
+    "name": "Taco Zone",
+    "address": "13 East 8th St",
+    "description": "Taco Zone is Lawrence's First Traditional, Southern Californian style, taqueria.",
+    "map": "",
+    "website": "http://www.thetacozone.com/",
+    "foursquare": "https://foursquare.com/v/taco-zone/53793dae498eaf7779ef035f",
+    "twitter": "https://twitter.com/taco_zone",
+    "section": "Food",
+    "tags": [
+      "tacos"
+    ]
   }
 }
