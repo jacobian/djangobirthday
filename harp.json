@@ -285,8 +285,8 @@
         "abstract": "It’s fitting that we gather in Lawrence, Kansas, to celebrate the 10th birthday of Django, developed and first put to use in the basement of what was once a US Post Office in downtown Lawrence. After all, as I hope to show, our lovely #LFK has a history of influencing the wider world.",
         "speakers": [
           {
-            "image": "/speakers/changeme.255w.jpg",
-            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+            "image": "/speakers/david.255w.jpg",
+            "image_srcset": "/speakers/david.255w.jpg 255w, /speakers/david.510w.jpg 510w, /speakers/david.640w.jpg 640w",
             "name": "David Ryan",
             "slug": "david-ryan",
             "bio": "David had the pleasure of being a web designer at LJWorld.com when Django was created. Prior to working for LJWorld.com, he was in the Ph.D. program at the University of Kansas focusing on Hermann Melville and 19th-century American literature. In August he’ll be moving to Chengdu, China, to teach English and, ideally, to hang out with Pandas and feed them bamboo.",
