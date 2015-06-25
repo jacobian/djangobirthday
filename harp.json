@@ -4,6 +4,7 @@
     "twitter": "djangobirthday",
     "talks": {
       "opening-address": {
+        "id": 1,
         "active": false,
         "video": true,
         "released": true,
@@ -22,6 +23,7 @@
         ]
       },
       "development-milestones": {
+        "id": 2,
         "active": true,
         "video": true,
         "released": true,
@@ -44,6 +46,7 @@
         ]
       },
       "documentation-as-empathy": {
+        "id": 3,
         "active": true,
         "video": true,
         "released": true,
@@ -67,6 +70,7 @@
         ]
       },
       "django-nonprofit": {
+        "id": 4,
         "active": true,
         "video": true,
         "released": true,
@@ -101,6 +105,7 @@
         ]
       },
       "intermezzo": {
+        "id": 5,
         "active": false,
         "video": false,
         "released": null,
@@ -110,6 +115,7 @@
         "duration": 10
       },
       "am-break": {
+        "id": 6,
         "active": false,
         "video": false,
         "released": null,
@@ -119,6 +125,7 @@
         "duration": 20
       },
       "give-python-pony": {
+        "id": 7,
         "active": true,
         "video": true,
         "released": true,
@@ -142,6 +149,7 @@
         ]
       },
       "a-more-accessible-django-girls": {
+        "id": 8,
         "active": true,
         "video": true,
         "released": true,
@@ -164,6 +172,7 @@
         ]
       },
       "django-health": {
+        "id": 9,
         "active": true,
         "video": true,
         "released": true,
@@ -186,6 +195,7 @@
         ]
       },
       "django-conspirancy": {
+        "id": 10,
         "active": true,
         "video": true,
         "released": true,
@@ -209,6 +219,7 @@
         ]
       },
       "lunch": {
+        "id": 11,
         "active": false,
         "video": false,
         "released": null,
@@ -218,6 +229,7 @@
         "duration": 50
       },
       "snakes-ponies-balloons": {
+        "id": 12,
         "active": true,
         "video": true,
         "released": true,
@@ -240,6 +252,7 @@
         ]
       },
       "born-lfk": {
+        "id": 13,
         "active": true,
         "video": true,
         "released": true,
@@ -262,6 +275,7 @@
         ]
       },
       "TBD": {
+        "id": 14,
         "active": true,
         "video": true,
         "released": true,
@@ -286,6 +300,7 @@
         ]
       },
       "7yrs-w-django": {
+        "id": 15,
         "active": true,
         "video": true,
         "released": true,
@@ -309,6 +324,7 @@
         ]
       },
       "django-mexico": {
+        "id": 16,
         "active": true,
         "video": true,
         "released": true,
@@ -332,6 +348,7 @@
         ]
       },
       "pm-break": {
+        "id": 17,
         "active": false,
         "video": false,
         "released": null,
@@ -341,6 +358,7 @@
         "duration": 20
       },
       "django-things": {
+        "id": 18,
         "active": true,
         "video": true,
         "released": true,
@@ -364,6 +382,7 @@
         ]
       },
       "django-dreams": {
+        "id": 19,
         "active": true,
         "video": true,
         "released": true,
@@ -387,6 +406,7 @@
         ]
       },
       "django-regrets": {
+        "id": 20,
         "active": true,
         "video": true,
         "released": true,
@@ -411,6 +431,7 @@
         ]
       },
       "closing-address": {
+        "id": 21,
         "active": true,
         "video": true,
         "released": true,
@@ -429,6 +450,7 @@
         ]
       },
       "changeme": {
+        "id": 22,
         "active": false,
         "video": false,
         "released": false,
