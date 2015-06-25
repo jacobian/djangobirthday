@@ -7,7 +7,8 @@
         "active": false,
         "slug": "👋",
         "title": "Opening Address",
-        "duration": 15,
+        "start": "2015-07-11T09:00:00-05:00",
+        "duration": 10,
         "speakers": [
           {
             "name": "Jacob Kaplan-Moss",
@@ -23,6 +24,7 @@
         "slug": "development-milestones",
         "title": "Development milestones, 1.0 onwards",
         "abstract": "Every release, Django adds some more headline features which let us get work done. We'll take a quick look at the major releases, the headline features they shipped, and wonder how we ever wrote a site with Django 1.0.",
+        "start": "2015-07-11T09:15:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -42,6 +44,7 @@
         "slug": "documentation-as-empathy",
         "title": "Documentation as Empathy",
         "abstract": "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs, and Write the Docs, I have seen a lot of angles, and appreciate documentation more every year. I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Read the Docs started in Lawrence, and has grown from there. This seems like the perfect venue to wax poetic about why documentation matters, and tell the story of Read the Docs along the way. The Django community is one where documentation has always been valued, and I think that understanding how it lead to its success and why it's an important virtue going forward is important. This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. ",
+        "start": "2015-07-11T09:40:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -62,6 +65,7 @@
         "slug": "django-nonprofit",
         "title": "Django Built a Nonprofit",
         "abstract": "Founded in 2008, the Sunlight Foundation is a nonprofit that uses the civic tech to make government more accountable and transparent. From a single Drupal site, to an organization powered by Django, we’ll tell the story of how a Python web framework built a successful nonprofit. The history of our open source Django apps tell the story of a growing organization and an open government movement. We'll cover various Django apps we have published and how each reflected the state of our organization, the open government community, or Django at the time they were created.",
+        "start": "2015-07-11T10:05:00-05:00",
         "duration": 15,
         "speakers": [
           {
@@ -92,12 +96,14 @@
         "active": false,
         "slug": "🎶",
         "title": "Intermezzo",
-        "duration": 15
+        "start": "2015-07-11T10:20:00-05:00",
+        "duration": 10
       },
       "am-break": {
         "active": false,
         "slug": "🕚☕️",
         "title": "Break",
+        "start": "2015-07-11T10:30:00-05:00",
         "duration": 20
       },
       "give-python-pony": {
@@ -105,6 +111,7 @@
         "slug": "🐍➡️🐴",
         "title": "Give A Python a Pony",
         "abstract": "A couple of years ago, I was faced with one of the scariest situations there is for a self-employed developer: I was burned out. The blinking cursor in Vim was taunting me and no number of GitHub issues could motivate me to churn out more than a few lines of code in a day. This burnout, though, led me back to an early love: I started teaching full time.<br/><br/>This is a talk in two parts. In part one, I’ll talk about some of the teaching triumphs I’ve had and witnessed thanks to a new career, the Python and Django worlds, and my employer, Treehouse (and others!). In the second part, I’ll share ways you can start teaching in your own communities and using your own talents, so we can all make the world better through learning.",
+        "start": "2015-07-11T10:50:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -125,6 +132,7 @@
         "slug": "a-more-accessible-django-girls",
         "title": "A More Accessible Django Girls",
         "abstract": "Appropriate planning and accommodations make Django Girls workshops and other tech events more open to many groups, including people with disabilities, Deaf attendees, attendees with mental illnesses, and more. You'll leave this talk with some concrete things you can do to make your next meetup, workshop, or conference more inclusive of people with disabilities, including how to advertise your accommodations, what to look for in a venue, and some free tools to help your website be more accessible.",
+        "start": "2015-07-11T11:15:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -139,11 +147,32 @@
           }
         ]
       },
+      "django-health": {
+        "active": true,
+        "slug": "django-health",
+        "title": "How Django is good for your health",
+        "abstract": "You know Django as the web framework behind sites like Instagram and Pinterest, but Django is used in many places now. One such place is the pharmaceutical industry, which is the definition of large corporate enterprises. Drug discovery is an immensely hard and expensive challenge. Believe it or not Django can play a meaningful role in that endeavor and ultimately be good for your health. ",
+        "start": "2015-07-11T11:40:00-05:00",
+        "duration": 15,
+        "speakers": [
+          {
+            "name": "Craig Bruce",
+            "slug": "craig",
+            "image": "/speakers/changeme.255w.jpg",
+            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+            "bio": "Following his PhD from the University of Nottingham in Cheminformatics Craig moved to AstraZeneca Pharmaceuticals as a Scientific Computing Specialist. He took a Django project used by chemists worldwide and transplanted it into a highly available cluster, upgrading every hardware and software component along the way. Since then he moved to Santa Fe, NM to work on the scientific cloud offerings at OpenEye Scientific Software, which are also written in Django and hosted completely on Amazon Web Services.",
+            "social": [
+              {"icon": "twitter", "link": "https://twitter.com/craigbruce", "title": "twitter"}
+            ]
+          }
+        ]
+      },
       "django-conspirancy": {
         "active": true,
         "slug": "django-conspirancy",
         "title": "Django: The Conspiracy",
         "abstract": "Ten years after the project known as \"Django\" was released to the public, there are still unanswered questions. Why did one of the original authors flee the country? What happened to all the removed magic? And, more importantly, why are there secret messages hidden in the template parser's regular expressions? I'll be attempting to throw light on some of the dark secrets of Django and, perhaps, finally divine its true purpose, after almost a decade of searching.",
+        "start": "2015-07-11T12:00:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -163,14 +192,16 @@
         "active": false,
         "slug": "🍴",
         "title": "Lunch",
-        "duration": 45
+        "start": "2015-07-11T12:20:00-05:00",
+        "duration": 50
       },
       "snakes-ponies-balloons": {
         "active": true,
         "slug": "🐍🐴🎈",
         "title": "Snakes, ponies and balloons: stories of teaching Django to thousands of women.",
         "abstract": "Django Girls is a workshop for total beginners into the world of web building. Started by two Polish girls in Berlin and now organized all over the world in 45 cities, Django Girls aim to inspire women to fell in love with programming. Ola will share with you how she went from not knowing anything about teaching programming or feminism, to knowing a little bit more thanks to thousands of people who participated in the workshop formula Django Girls created. You'll learn the secrets of explaining the Internet, servers or Django ORM to people who never done this before. And how to find 100+ women who want to learn to code just about anywhere. This talk is your introduction to the world of getting girls excited about snakes, ponies and balloons.",
-        "duration": 30,
+        "start": "2015-07-11T13:10:00-05:00",
+        "duration": 25,
         "speakers": [
           {
             "name": "Ola Sitarska",
@@ -189,7 +220,8 @@
         "slug": "born-lfk",
         "title": "Born in (the) #LFK",
         "abstract": "It’s fitting that we gather in Lawrence, Kansas, to celebrate the 10th birthday of Django, developed and first put to use in the basement of what was once a US Post Office in downtown Lawrence. After all, as I hope to show, our lovely #LFK has a history of influencing the wider world.",
-        "duration": 30,
+        "start": "2015-07-11T13:40:00-05:00",
+        "duration": 25,
         "speakers": [
           {
             "image": "/speakers/david.255w.jpg",
@@ -208,7 +240,8 @@
         "slug": "something-javascript",
         "title": "TBD",
         "abstract": "TBD",
-        "duration": 20,
+        "start": "2015-07-11T14:10:00-05:00",
+        "duration": 18,
         "speakers": [
           {
             "name": "Mikeal Rogers",
@@ -229,7 +262,8 @@
         "slug": "7yrs-w-django",
         "title": "7 years with Django, to core developer and back",
         "abstract": "One night, in September 2007, I read every page of Django's documentation and the entire (then draft) Django Book. Over the next few years I became a frequent contributor to Django, including becoming a core developer and later a member of the DSF board. Now I'm largely uninvolved with Django's development. This talk is the story of my time with Django. This talk is a walk through my time with Django -- from emailing Adrian to ask about attending a sprint that had already happened, to contributing patches, to the multi-db GSOC, to Eric Florenzano's keynote, becoming a core developer, joining the board, to slowly fading away and becoming an emeritus developer.",
-        "duration": 20,
+        "start": "2015-07-11T14:30:00-05:00",
+        "duration": 18,
         "speakers": [
           {
             "name": "Alex Gaynor",
@@ -249,6 +283,7 @@
         "slug": "django-mexico",
         "title": "The Mysterious Django Community in Mexico",
         "abstract": "When I set out to bring Django Girls to the city of Tijuana, I never expected to find so many programmers. Even more unexpected was a small group of Python/Django developers I found, passionate about kickstarting the Python community in Baja California. As Django Girls (and later, Django Girls Ensenada) came and went, I learned more about the Django community in other cities of Mexico, including the reason why I never heard of them before organizing the workshop.",
+        "start": "2015-07-11T14:50:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -268,6 +303,7 @@
         "active": false,
         "slug": "🕒☕️",
         "title": "Break",
+        "start": "2015-07-11T15:10:00-05:00",
         "duration": 20
       },
       "django-things": {
@@ -275,6 +311,7 @@
         "slug": "django-things",
         "title": "Some things I've made with Django",
         "abstract": "TBD",
+        "start": "2015-07-11T15:30:00-05:00",
         "duration": 30,
         "speakers": [
           {
@@ -295,7 +332,8 @@
         "slug": "django-dreams",
         "title": "Django Dreams",
         "abstract": "An exposé on what the future of Django could look like, from Kenneth’s perspective. Let’s strive to make the world a better place, with Django as a centerpoint.",
-        "duration": 30,
+        "start": "2015-07-11T16:05:00-05:00",
+        "duration": 25,
         "speakers": [
           {
             "name": "Kenneth Reitz",
@@ -310,30 +348,12 @@
           }
         ]
       },
-      "django-health": {
-        "active": true,
-        "slug": "django-health",
-        "title": "How Django is good for your health",
-        "abstract": "You know Django as the web framework behind sites like Instagram and Pinterest, but Django is used in many places now. One such place is the pharmaceutical industry, which is the definition of large corporate enterprises. Drug discovery is an immensely hard and expensive challenge. Believe it or not Django can play a meaningful role in that endeavor and ultimately be good for your health. ",
-        "duration": 15,
-        "speakers": [
-          {
-            "name": "Craig Bruce",
-            "slug": "craig",
-            "image": "/speakers/changeme.255w.jpg",
-            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
-            "bio": "Following his PhD from the University of Nottingham in Cheminformatics Craig moved to AstraZeneca Pharmaceuticals as a Scientific Computing Specialist. He took a Django project used by chemists worldwide and transplanted it into a highly available cluster, upgrading every hardware and software component along the way. Since then he moved to Santa Fe, NM to work on the scientific cloud offerings at OpenEye Scientific Software, which are also written in Django and hosted completely on Amazon Web Services.",
-            "social": [
-              {"icon": "twitter", "link": "https://twitter.com/craigbruce", "title": "twitter"}
-            ]
-          }
-        ]
-      },
       "django-regrets": {
         "active": true,
         "title": "Django Regrets",
         "slug": "django-regrets",
         "abstract": "With the benefit of hindsight, here are a bunch of things I've regretted about doing, and not doing, in helping develop Django. Learn from my mistakes!",
+        "start": "2015-07-11T16:35:00-05:00",
         "duration": 30,
         "speakers": [
           {
@@ -354,7 +374,8 @@
         "active": true,
         "slug": "👏",
         "title": "Closing Address",
-        "duration": 15,
+        "start": "2015-07-11T17:05:00-05:00",
+        "duration": 10,
         "speakers": [
           {
             "name": "Frank Wiles",
