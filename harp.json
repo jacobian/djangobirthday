@@ -7,7 +7,16 @@
         "active": false,
         "slug": "👋",
         "title": "Opening Address",
-        "duration": 15
+        "duration": 15,
+        "speakers": [
+          {
+            "name": "Jacob Kaplan-Moss",
+            "slug": "jacobian",
+            "image": "/speakers/changeme.255w.jpg",
+            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+            "bio": "Jacob Kaplan-Moss is one of the lead developers and co-creator of <a href='http://www.djangoproject.com/'>Django</a>. As an experienced software developer with a focus on web application and content management architecture. In 2005 Jacob joined the <a href='http://www.ljworld.com/'>Lawrence Journal-World</a>, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. Jacob joined Revolution Systems in 2009."
+          }
+        ]
       },
       "development-milestones": {
         "active": true,
@@ -342,10 +351,19 @@
         ]
       },
       "closing-address": {
-        "active": false,
+        "active": true,
         "slug": "👏",
         "title": "Closing Address",
-        "duration": 15
+        "duration": 15,
+        "speakers": [
+          {
+            "name": "Frank Wiles",
+            "slug": "frank-wiles",
+            "image": "/speakers/changeme.255w.jpg",
+            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+            "bio": "Frank Wiles believes technology should make our lives easier, not more complicated. He started Revolution Systems to help businesses take full advantage of all the benefits of the Open Source Software revolution. His experience has made him the go-to source for building applications, systems, and processes that show how software can be easy, robust and affordable."
+          }
+        ]
       },
       "changeme": {
         "active": false,
