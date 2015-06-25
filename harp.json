@@ -5,11 +5,11 @@
     "talks": {
       "opening-address": {
         "id": 1,
-        "active": false,
+        "active": true,
         "video": true,
         "released": true,
         "slug": "👋",
-        "title": "Opening Address",
+        "title": "9:00 AM – Opening Address",
         "start": "2015-07-11T09:00:00-05:00",
         "duration": 10,
         "speakers": [
@@ -106,21 +106,21 @@
       },
       "intermezzo": {
         "id": 5,
-        "active": false,
+        "active": true,
         "video": false,
         "released": null,
         "slug": "🎶",
-        "title": "Intermezzo",
+        "title": "10:20 AM – Intermezzo",
         "start": "2015-07-11T10:20:00-05:00",
         "duration": 10
       },
       "am-break": {
         "id": 6,
-        "active": false,
+        "active": true,
         "video": false,
         "released": null,
         "slug": "🕚☕️",
-        "title": "Break",
+        "title": "10:30 AM – Break",
         "start": "2015-07-11T10:30:00-05:00",
         "duration": 20
       },
@@ -220,11 +220,11 @@
       },
       "lunch": {
         "id": 11,
-        "active": false,
+        "active": true,
         "video": false,
         "released": null,
         "slug": "🍴",
-        "title": "Lunch",
+        "title": "12:20 PM – Lunch",
         "start": "2015-07-11T12:20:00-05:00",
         "duration": 50
       },
@@ -349,11 +349,11 @@
       },
       "pm-break": {
         "id": 17,
-        "active": false,
+        "active": true,
         "video": false,
         "released": null,
         "slug": "🕒☕️",
-        "title": "Break",
+        "title": "3:10 PM – Break",
         "start": "2015-07-11T15:10:00-05:00",
         "duration": 20
       },
@@ -436,7 +436,7 @@
         "video": true,
         "released": true,
         "slug": "👏",
-        "title": "Closing Address",
+        "title": "5:05 PM – Closing Address",
         "start": "2015-07-11T17:05:00-05:00",
         "duration": 10,
         "speakers": [

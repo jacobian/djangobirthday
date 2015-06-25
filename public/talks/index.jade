@@ -18,9 +18,10 @@ block content
               | #{talk.title}
         .row
           .col-sm-3.hidden-xs
-            for speaker in talk.speakers
-              img(src="#{speaker.image}", srcset="#{speaker.image_srcset}", width="100%", alt=speaker.name)
-              h3
-                a.talk-speaker(href="../speakers/##{speaker.slug}")= speaker.name
+            if talk.speakers
+              for speaker in talk.speakers
+                img(src="#{speaker.image}", srcset="#{speaker.image_srcset}", width="100%", alt=speaker.name)
+                h3
+                  a.talk-speaker(href="../speakers/##{speaker.slug}")= speaker.name
           .col-sm-8
             p.lead!= talk.abstract
