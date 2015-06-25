@@ -5,6 +5,7 @@
     "talks": {
       "opening-address": {
         "active": false,
+        "video": true,
         "released": true,
         "slug": "👋",
         "title": "Opening Address",
@@ -22,6 +23,7 @@
       },
       "development-milestones": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "development-milestones",
         "title": "Development milestones, 1.0 onwards",
@@ -43,6 +45,7 @@
       },
       "documentation-as-empathy": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "documentation-as-empathy",
         "title": "Documentation as Empathy",
@@ -65,6 +68,7 @@
       },
       "django-nonprofit": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-nonprofit",
         "title": "Django Built a Nonprofit",
@@ -98,6 +102,7 @@
       },
       "intermezzo": {
         "active": false,
+        "video": false,
         "released": null,
         "slug": "🎶",
         "title": "Intermezzo",
@@ -106,6 +111,7 @@
       },
       "am-break": {
         "active": false,
+        "video": false,
         "released": null,
         "slug": "🕚☕️",
         "title": "Break",
@@ -114,6 +120,7 @@
       },
       "give-python-pony": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "🐍➡️🐴",
         "title": "Give A Python a Pony",
@@ -136,6 +143,7 @@
       },
       "a-more-accessible-django-girls": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "a-more-accessible-django-girls",
         "title": "A More Accessible Django Girls",
@@ -157,6 +165,7 @@
       },
       "django-health": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-health",
         "title": "How Django is good for your health",
@@ -178,6 +187,7 @@
       },
       "django-conspirancy": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-conspirancy",
         "title": "Django: The Conspiracy",
@@ -200,6 +210,7 @@
       },
       "lunch": {
         "active": false,
+        "video": false,
         "released": null,
         "slug": "🍴",
         "title": "Lunch",
@@ -208,6 +219,7 @@
       },
       "snakes-ponies-balloons": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "🐍🐴🎈",
         "title": "Snakes, ponies and balloons: stories of teaching Django to thousands of women.",
@@ -229,6 +241,7 @@
       },
       "born-lfk": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "born-lfk",
         "title": "Born in (the) #LFK",
@@ -250,6 +263,7 @@
       },
       "TBD": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "something-javascript",
         "title": "TBD",
@@ -273,6 +287,7 @@
       },
       "7yrs-w-django": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "7yrs-w-django",
         "title": "7 years with Django, to core developer and back",
@@ -295,6 +310,7 @@
       },
       "django-mexico": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-mexico",
         "title": "The Mysterious Django Community in Mexico",
@@ -317,6 +333,7 @@
       },
       "pm-break": {
         "active": false,
+        "video": false,
         "released": null,
         "slug": "🕒☕️",
         "title": "Break",
@@ -325,6 +342,7 @@
       },
       "django-things": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-things",
         "title": "Some things I've made with Django",
@@ -347,6 +365,7 @@
       },
       "django-dreams": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "django-dreams",
         "title": "Django Dreams",
@@ -369,6 +388,7 @@
       },
       "django-regrets": {
         "active": true,
+        "video": true,
         "released": true,
         "title": "Django Regrets",
         "slug": "django-regrets",
@@ -392,6 +412,7 @@
       },
       "closing-address": {
         "active": true,
+        "video": true,
         "released": true,
         "slug": "👏",
         "title": "Closing Address",
@@ -409,6 +430,7 @@
       },
       "changeme": {
         "active": false,
+        "video": false,
         "released": false,
         "slug": "changemme",
         "title": "ChangeMe",
