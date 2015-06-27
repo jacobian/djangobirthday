@@ -185,8 +185,8 @@
           {
             "name": "Craig Bruce",
             "slug": "craig",
-            "image": "/speakers/changeme.255w.jpg",
-            "image_srcset": "/speakers/changeme.255w.jpg 255w, /speakers/changeme.510w.jpg 510w, /speakers/changeme.640w.jpg 640w",
+            "image": "/speakers/craig.255w.jpg",
+            "image_srcset": "/speakers/craig.255w.jpg 255w, /speakers/craig.510w.jpg 510w, /speakers/craig.640w.jpg 640w",
             "bio": "Following his PhD from the University of Nottingham in Cheminformatics Craig moved to AstraZeneca Pharmaceuticals as a Scientific Computing Specialist. He took a Django project used by chemists worldwide and transplanted it into a highly available cluster, upgrading every hardware and software component along the way. Since then he moved to Santa Fe, NM to work on the scientific cloud offerings at OpenEye Scientific Software, which are also written in Django and hosted completely on Amazon Web Services.",
             "social": [
               {"icon": "twitter", "link": "https://twitter.com/craigbruce", "title": "twitter"}
