@@ -234,5 +234,19 @@
     "tags": [
       "tacos"
     ]
+  },
+  "zen-zero": {
+    "name": "Zen Zero",
+    "address": "811 Massachusetts St.",
+    "description": "An Asian Noodle Shop & Restaurant with cuisines from Nepal, Tibet, Thailand, Vietnam & Japan",
+    "map": "",
+    "website": "http://www.zen-zero.com/",
+    "foursquare": "https://foursquare.com/v/zen-zero/4afe1008f964a520932d22e3",
+    "twitter": "https://twitter.com/ZenZeroKS",
+    "section": "Food",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ]
   }
 }
