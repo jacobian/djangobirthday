@@ -324,6 +324,16 @@
           }
         ]
       },
+      "pm-break": {
+        "id": 17,
+        "active": true,
+        "video": false,
+        "released": null,
+        "slug": "🕒☕️",
+        "title": "2:50 PM – Break",
+        "start": "2015-07-11T14:50:00-05:00",
+        "duration": 20
+      },
       "django-mexico": {
         "id": 16,
         "active": true,
@@ -332,7 +342,7 @@
         "slug": "django-mexico",
         "title": "The Mysterious Django Community in Mexico",
         "abstract": "When I set out to bring Django Girls to the city of Tijuana, I never expected to find so many programmers. Even more unexpected was a small group of Python/Django developers I found, passionate about kickstarting the Python community in Baja California. As Django Girls (and later, Django Girls Ensenada) came and went, I learned more about the Django community in other cities of Mexico, including the reason why I never heard of them before organizing the workshop.",
-        "start": "2015-07-11T14:50:00-05:00",
+        "start": "2015-07-11T15:10:00-05:00",
         "duration": 20,
         "speakers": [
           {
@@ -347,16 +357,6 @@
             ]
           }
         ]
-      },
-      "pm-break": {
-        "id": 17,
-        "active": true,
-        "video": false,
-        "released": null,
-        "slug": "🕒☕️",
-        "title": "3:10 PM – Break",
-        "start": "2015-07-11T15:10:00-05:00",
-        "duration": 20
       },
       "django-things": {
         "id": 18,
@@ -378,30 +378,6 @@
             "social": [
               {"icon": "twitter", "link": "https://twitter.com/simonw", "title": "twitter"},
               {"icon": "globe", "link": "http://lanyrd.com/profile/simonw/", "title": "website"}
-            ]
-          }
-        ]
-      },
-      "django-dreams": {
-        "id": 19,
-        "active": true,
-        "video": true,
-        "released": true,
-        "slug": "django-dreams",
-        "title": "Django Dreams",
-        "abstract": "An exposé on what the future of Django could look like, from Kenneth’s perspective. Let’s strive to make the world a better place, with Django as a centerpoint.",
-        "start": "2015-07-11T16:05:00-05:00",
-        "duration": 25,
-        "speakers": [
-          {
-            "name": "Kenneth Reitz",
-            "slug": "kenneth",
-            "image": "/speakers/kenneth.255w.jpg",
-            "image_srcset": "/speakers/kenneth.255w.jpg 255w, /speakers/kenneth.510w.jpg 510w, /speakers/kenneth.640w.jpg 640w",
-            "bio": "Kenneth Reitz is the product owner of Python at Heroku, and a member of the Python Software Foundation. As the author of Requests, he has an enormously broad perspective on the needs and desires of Django users and the general Python community.",
-            "social": [
-              {"icon": "twitter", "link": "https://twitter.com/kennethreitz", "title": "twitter"},
-              {"icon": "globe", "link": "http://www.kennethreitz.org/", "title": "website"}
             ]
           }
         ]
