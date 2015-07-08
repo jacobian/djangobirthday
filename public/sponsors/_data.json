@@ -46,5 +46,11 @@
         "url": "https://teamtreehouse.com/",
         "type": "sponsor",
         "image": "treehouse.png"
+    },
+    "eldarion": {
+        "name": "Eldarion",
+        "url": "http://eldarion.com/",
+        "type": "sponsor",
+        "image": "eldarion.svg"
     }
 }
