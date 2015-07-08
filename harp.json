@@ -366,7 +366,7 @@
         "slug": "django-things",
         "title": "Some Things I've Made With Django",
         "abstract": "TBD",
-        "start": "2015-07-11T15:30:00-05:00",
+        "start": "2015-07-11T15:35:00-05:00",
         "duration": 30,
         "speakers": [
           {
@@ -390,7 +390,7 @@
         "title": "Django Regrets",
         "slug": "django-regrets",
         "abstract": "With the benefit of hindsight, here are a bunch of things I've regretted about doing, and not doing, in helping develop Django. Learn from my mistakes!",
-        "start": "2015-07-11T16:35:00-05:00",
+        "start": "2015-07-11T16:15:00-05:00",
         "duration": 30,
         "speakers": [
           {
@@ -413,8 +413,8 @@
         "video": true,
         "released": true,
         "slug": "👏",
-        "title": "5:05 PM – Closing Address",
-        "start": "2015-07-11T17:05:00-05:00",
+        "title": "4:50 PM – Closing Address",
+        "start": "2015-07-11T16:50:00-05:00",
         "duration": 10,
         "speakers": [
           {
