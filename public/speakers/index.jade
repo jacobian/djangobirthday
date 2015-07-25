@@ -28,6 +28,11 @@ block content
                   p.thesocial
                     for s in speaker.social
                       +social(s.icon, s.link, s.title)
+                    if talk.video_url
+                      span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)
+                        a(href=talk.video_url)
+                          i.fa.fa-square-o.fa-stack-2x
+                          i(class="fa fa-video-camera fa-stack-1x")
 
 mixin social(icon, href, title)
   span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)

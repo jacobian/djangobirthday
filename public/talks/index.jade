@@ -25,3 +25,9 @@ block content
                   a.talk-speaker(href="../speakers/##{speaker.slug}")= speaker.name
           .col-sm-8
             p.lead!= talk.abstract
+            if talk.video_url
+              p.thesocial
+                span.fa-stack.fa-2x(data-toggle="tooltip", data-placement="top", title=title)
+                  a(href=talk.video_url)
+                    i.fa.fa-square-o.fa-stack-2x
+                    i(class="fa fa-video-camera fa-stack-1x")
